@@ -1,5 +1,9 @@
 # Development
 
+Want to make a version for your family or a small nonprofit? Start with the [friendly guide and ready-to-copy AI prompt in the README](README.md#make-it-your-own). You can give this document to your AI helper or a technical supporter; you do not need to work through it on your own.
+
+These notes explain the setup behind the app. The demonstration runs only on your computer with invented content. A private online version also needs its own database, secure sign-in and hosting configuration, described below.
+
 Use Node.js 24 and npm ci. npm start and npm run dev start the same disposable loopback memory demonstration; they are not production authentication. No environment file is automatically loaded.
 
 ## Source map
