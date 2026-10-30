@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>My Words — open book</title>
+  <rect width="512" height="512" fill="#6236a5"/>
+  <g fill="#fff">
+    <path d="M64 142 Q156 106 248 153 V382 Q156 326 64 348 Z"/>
+    <path d="M264 153 Q356 106 448 142 V348 Q356 326 264 382 Z"/>
+  </g>
+</svg>

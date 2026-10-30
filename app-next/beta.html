@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>My Words Beta</title>
+  <link rel="stylesheet" href="/css/trial.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/app/my-words.svg">
+</head>
+<body data-beta-page="organiser">
+  <header><nav aria-label="Main navigation"><a href="/">Home</a><a href="/editor.html">Settings</a></nav></header>
+  <main>
+    <h1>Invite someone</h1>
+    <p>Give someone their own My Words account. Their saved words will be separate from yours.</p>
+    <p id="beta-error" role="alert"></p>
+    <p id="beta-status" role="status" aria-live="polite">Checking access…</p>
+    <button id="beta-retry" type="button" hidden>Try again</button>
+    <div id="beta-sign-in-nav" hidden><nav aria-label="Account navigation"><a href="/">Sign in</a></nav></div>
+    <div id="beta-controls" hidden>
+      <section id="invitation-step" class="settings-section" aria-labelledby="invitation-heading">
+        <h2 id="invitation-heading">Make an invitation</h2>
+        <p>The person you invite will choose their own username and password. You do not need to fill anything in.</p>
+        <form id="invitation-form" novalidate>
+          <details>
+            <summary>Choose their username (optional)</summary>
+            <label for="invitation-username">Username (optional)</label>
+            <input id="invitation-username" name="username" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="invitation-help">
+            <p id="invitation-help">Leave blank to let them choose. Otherwise, use 3–40 lowercase letters, numbers, underscores (_) or hyphens (-).</p>
+          </details>
+          <button type="submit" class="primary">Create invitation link</button>
+        </form>
+      </section>
+      <section id="private-link-result" class="settings-section" aria-labelledby="private-link-heading" hidden>
+        <h2 id="private-link-heading">Private link</h2>
+        <p id="private-link-instructions"></p>
+        <button id="send-private-link" type="button" class="primary">Send invitation</button>
+        <p id="private-link-expiry"></p>
+        <details id="copy-options">
+          <summary>Copy the link instead</summary>
+          <label for="private-link">Private link</label>
+          <textarea id="private-link" class="situation-input" rows="4" readonly autocomplete="off" spellcheck="false"></textarea>
+          <button id="copy-private-link" type="button">Copy link</button>
+        </details>
+        <p>Send this private link only to the intended person. The link works once, within 48 hours.</p>
+        <button id="another-invitation" type="button">Make another invitation</button>
+      </section>
+      <details class="settings-section">
+        <summary>Help with a password</summary>
+        <p>A recovery link lets someone choose a new password for their existing account. When the link is used, old sessions close. Saved words are not deleted.</p>
+        <form id="recovery-form">
+          <label for="recovery-username">Account to recover</label>
+          <select id="recovery-username" name="recoveryFor" required></select>
+          <button id="recovery-submit" type="submit">Create recovery link</button>
+        </form>
+      </details>
+    </div>
+    <noscript><p class="notice">JavaScript is needed to create private links.</p></noscript>
+  </main>
+  <script src="/js/repository.js"></script>
+  <script src="/js/beta-access.js"></script>
+</body>
+</html>

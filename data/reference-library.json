@@ -1,0 +1,7771 @@
+{
+  "version": "1.1",
+  "description": "Master vocabulary database for Reference Library - curated words for PPA communication support",
+  "totalWords": 2166,
+  "lastUpdated": "2026-01-08",
+  "categories": [
+    {
+      "id": "family",
+      "name": "Family & Relationships",
+      "icon": "users",
+      "words": [
+        {
+          "text": "Husband"
+        },
+        {
+          "text": "Wife"
+        },
+        {
+          "text": "Spouse"
+        },
+        {
+          "text": "Partner"
+        },
+        {
+          "text": "Son"
+        },
+        {
+          "text": "Daughter"
+        },
+        {
+          "text": "Child"
+        },
+        {
+          "text": "Children"
+        },
+        {
+          "text": "Mother"
+        },
+        {
+          "text": "Father"
+        },
+        {
+          "text": "Mom"
+        },
+        {
+          "text": "Dad"
+        },
+        {
+          "text": "Brother"
+        },
+        {
+          "text": "Sister"
+        },
+        {
+          "text": "Grandmother"
+        },
+        {
+          "text": "Grandfather"
+        },
+        {
+          "text": "Grandma"
+        },
+        {
+          "text": "Grandpa"
+        },
+        {
+          "text": "Grandson"
+        },
+        {
+          "text": "Granddaughter"
+        },
+        {
+          "text": "Grandchild"
+        },
+        {
+          "text": "Aunt"
+        },
+        {
+          "text": "Uncle"
+        },
+        {
+          "text": "Niece"
+        },
+        {
+          "text": "Nephew"
+        },
+        {
+          "text": "Cousin"
+        },
+        {
+          "text": "Mother-in-law"
+        },
+        {
+          "text": "Father-in-law"
+        },
+        {
+          "text": "Sister-in-law"
+        },
+        {
+          "text": "Brother-in-law"
+        },
+        {
+          "text": "Son-in-law"
+        },
+        {
+          "text": "Daughter-in-law"
+        },
+        {
+          "text": "Stepmother"
+        },
+        {
+          "text": "Stepfather"
+        },
+        {
+          "text": "Stepson"
+        },
+        {
+          "text": "Stepdaughter"
+        },
+        {
+          "text": "Friend"
+        },
+        {
+          "text": "Best friend"
+        },
+        {
+          "text": "Neighbour"
+        },
+        {
+          "text": "Colleague"
+        },
+        {
+          "text": "Coworker"
+        },
+        {
+          "text": "Boss"
+        },
+        {
+          "text": "Caregiver"
+        },
+        {
+          "text": "Babysitter"
+        },
+        {
+          "text": "Pet"
+        },
+        {
+          "text": "Dog"
+        },
+        {
+          "text": "Cat"
+        },
+        {
+          "text": "Gracie (Fox terrier / mini Schnauzer)"
+        },
+        {
+          "text": "Baby"
+        },
+        {
+          "text": "Toddler"
+        },
+        {
+          "text": "Teenager"
+        },
+        {
+          "text": "Adult"
+        },
+        {
+          "text": "Senior"
+        },
+        {
+          "text": "Man"
+        },
+        {
+          "text": "Woman"
+        },
+        {
+          "text": "Boy"
+        },
+        {
+          "text": "Girl"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "name": "People & Relationships",
+      "icon": "users-round",
+      "words": [
+        {
+          "text": "husband",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "wife",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "spouse",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "partner",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "son",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "daughter",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "child",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "children",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "baby",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "mother",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "father",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "parent",
+          "usage": "Immediate family"
+        },
+        {
+          "text": "grandmother",
+          "usage": "Extended family"
+        },
+        {
+          "text": "grandfather",
+          "usage": "Extended family"
+        },
+        {
+          "text": "grandparent",
+          "usage": "Extended family"
+        },
+        {
+          "text": "grandson",
+          "usage": "Extended family"
+        },
+        {
+          "text": "granddaughter",
+          "usage": "Extended family"
+        },
+        {
+          "text": "grandchild",
+          "usage": "Extended family"
+        },
+        {
+          "text": "grandchildren",
+          "usage": "Extended family"
+        },
+        {
+          "text": "great-grandchild",
+          "usage": "Extended family"
+        },
+        {
+          "text": "sister",
+          "usage": "Extended family"
+        },
+        {
+          "text": "brother",
+          "usage": "Extended family"
+        },
+        {
+          "text": "sibling",
+          "usage": "Extended family"
+        },
+        {
+          "text": "aunt",
+          "usage": "Extended family"
+        },
+        {
+          "text": "uncle",
+          "usage": "Extended family"
+        },
+        {
+          "text": "cousin",
+          "usage": "Extended family"
+        },
+        {
+          "text": "niece",
+          "usage": "Extended family"
+        },
+        {
+          "text": "nephew",
+          "usage": "Extended family"
+        },
+        {
+          "text": "mother-in-law",
+          "usage": "Extended family"
+        },
+        {
+          "text": "father-in-law",
+          "usage": "Extended family"
+        },
+        {
+          "text": "sister-in-law",
+          "usage": "Extended family"
+        },
+        {
+          "text": "brother-in-law",
+          "usage": "Extended family"
+        },
+        {
+          "text": "son-in-law",
+          "usage": "Extended family"
+        },
+        {
+          "text": "daughter-in-law",
+          "usage": "Extended family"
+        },
+        {
+          "text": "stepmother",
+          "usage": "Extended family"
+        },
+        {
+          "text": "stepfather",
+          "usage": "Extended family"
+        },
+        {
+          "text": "stepchild",
+          "usage": "Extended family"
+        },
+        {
+          "text": "half-sister",
+          "usage": "Extended family"
+        },
+        {
+          "text": "half-brother",
+          "usage": "Extended family"
+        },
+        {
+          "text": "friend",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "best friend",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "close friend",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "old friend",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "new friend",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "neighbour",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "acquaintance",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "colleague",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "coworker",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "boss",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "employee",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "caregiver",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "helper",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "aide",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "doctor",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "nurse",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "therapist",
+          "usage": "Other relationships"
+        },
+        {
+          "text": "baby",
+          "usage": "Describing age"
+        },
+        {
+          "text": "toddler",
+          "usage": "Describing age"
+        },
+        {
+          "text": "teenager",
+          "usage": "Describing age"
+        },
+        {
+          "text": "young adult",
+          "usage": "Describing age"
+        },
+        {
+          "text": "adult",
+          "usage": "Describing age"
+        },
+        {
+          "text": "middle-aged",
+          "usage": "Describing age"
+        },
+        {
+          "text": "senior",
+          "usage": "Describing age"
+        },
+        {
+          "text": "elderly",
+          "usage": "Describing age"
+        },
+        {
+          "text": "young",
+          "usage": "Describing age"
+        },
+        {
+          "text": "old",
+          "usage": "Describing age"
+        },
+        {
+          "text": "older",
+          "usage": "Describing age"
+        },
+        {
+          "text": "tall",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "short",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "medium height",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "thin",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "slim",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "average build",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "heavy",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "overweight",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "large",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "muscular",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "fit",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "petite",
+          "usage": "Physical appearance"
+        },
+        {
+          "text": "blonde",
+          "usage": "Hair description"
+        },
+        {
+          "text": "brunette",
+          "usage": "Hair description"
+        },
+        {
+          "text": "redhead",
+          "usage": "Hair description"
+        },
+        {
+          "text": "black hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "grey hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "white hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "brown hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "bald",
+          "usage": "Hair description"
+        },
+        {
+          "text": "balding",
+          "usage": "Hair description"
+        },
+        {
+          "text": "short hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "long hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "medium length",
+          "usage": "Hair description"
+        },
+        {
+          "text": "curly",
+          "usage": "Hair description"
+        },
+        {
+          "text": "straight",
+          "usage": "Hair description"
+        },
+        {
+          "text": "wavy",
+          "usage": "Hair description"
+        },
+        {
+          "text": "thin hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "thick hair",
+          "usage": "Hair description"
+        },
+        {
+          "text": "round face",
+          "usage": "Face description"
+        },
+        {
+          "text": "oval face",
+          "usage": "Face description"
+        },
+        {
+          "text": "long face",
+          "usage": "Face description"
+        },
+        {
+          "text": "beard",
+          "usage": "Face description"
+        },
+        {
+          "text": "mustache",
+          "usage": "Face description"
+        },
+        {
+          "text": "clean-shaven",
+          "usage": "Face description"
+        },
+        {
+          "text": "wrinkles",
+          "usage": "Face description"
+        },
+        {
+          "text": "freckles",
+          "usage": "Face description"
+        },
+        {
+          "text": "glasses",
+          "usage": "Face description"
+        },
+        {
+          "text": "wears glasses",
+          "usage": "Face description"
+        },
+        {
+          "text": "blue eyes",
+          "usage": "Face description"
+        },
+        {
+          "text": "brown eyes",
+          "usage": "Face description"
+        },
+        {
+          "text": "green eyes",
+          "usage": "Face description"
+        },
+        {
+          "text": "hazel eyes",
+          "usage": "Face description"
+        },
+        {
+          "text": "friendly",
+          "usage": "Personality"
+        },
+        {
+          "text": "kind",
+          "usage": "Personality"
+        },
+        {
+          "text": "nice",
+          "usage": "Personality"
+        },
+        {
+          "text": "quiet",
+          "usage": "Personality"
+        },
+        {
+          "text": "talkative",
+          "usage": "Personality"
+        },
+        {
+          "text": "shy",
+          "usage": "Personality"
+        },
+        {
+          "text": "outgoing",
+          "usage": "Personality"
+        },
+        {
+          "text": "funny",
+          "usage": "Personality"
+        },
+        {
+          "text": "serious",
+          "usage": "Personality"
+        },
+        {
+          "text": "patient",
+          "usage": "Personality"
+        },
+        {
+          "text": "impatient",
+          "usage": "Personality"
+        },
+        {
+          "text": "calm",
+          "usage": "Personality"
+        },
+        {
+          "text": "nervous",
+          "usage": "Personality"
+        },
+        {
+          "text": "relaxed",
+          "usage": "Personality"
+        },
+        {
+          "text": "energetic",
+          "usage": "Personality"
+        },
+        {
+          "text": "tired",
+          "usage": "Personality"
+        },
+        {
+          "text": "busy",
+          "usage": "Personality"
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "name": "Personal Notes",
+      "icon": "clipboard",
+      "words": [
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        },
+        {
+          "text": "[Important Date or Note]",
+          "usage": "Personal Important Dates"
+        }
+      ]
+    },
+    {
+      "id": "greetings",
+      "name": "Greetings & Farewells",
+      "icon": "wave",
+      "words": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good night"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you soon"
+        },
+        {
+          "text": "Take care"
+        },
+        {
+          "text": "Have a good day"
+        },
+        {
+          "text": "Have a nice day"
+        },
+        {
+          "text": "Nice to see you"
+        },
+        {
+          "text": "Nice to meet you"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "How's it going?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "I'm fine"
+        },
+        {
+          "text": "I'm good"
+        },
+        {
+          "text": "I'm well"
+        },
+        {
+          "text": "Not bad"
+        },
+        {
+          "text": "I'm doing well"
+        },
+        {
+          "text": "Welcome"
+        },
+        {
+          "text": "Come in"
+        },
+        {
+          "text": "Please sit down"
+        },
+        {
+          "text": "It was nice talking to you"
+        },
+        {
+          "text": "Talk to you later"
+        },
+        {
+          "text": "Until next time"
+        },
+        {
+          "text": "Safe travels"
+        },
+        {
+          "text": "Drive safely"
+        },
+        {
+          "text": "Get home safe"
+        },
+        {
+          "text": "Miss you"
+        },
+        {
+          "text": "Love you"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Questions",
+      "icon": "circle-help",
+      "words": [
+        {
+          "text": "What"
+        },
+        {
+          "text": "What is"
+        },
+        {
+          "text": "What time"
+        },
+        {
+          "text": "Where"
+        },
+        {
+          "text": "Where is"
+        },
+        {
+          "text": "When"
+        },
+        {
+          "text": "When is"
+        },
+        {
+          "text": "Why"
+        },
+        {
+          "text": "How"
+        },
+        {
+          "text": "How much"
+        },
+        {
+          "text": "How many"
+        },
+        {
+          "text": "How long"
+        },
+        {
+          "text": "How often"
+        },
+        {
+          "text": "How far"
+        },
+        {
+          "text": "Who"
+        },
+        {
+          "text": "Who is"
+        },
+        {
+          "text": "Which"
+        },
+        {
+          "text": "Which one"
+        },
+        {
+          "text": "Can you"
+        },
+        {
+          "text": "Can I"
+        },
+        {
+          "text": "Could you"
+        },
+        {
+          "text": "Would you"
+        },
+        {
+          "text": "Will you"
+        },
+        {
+          "text": "Do you"
+        },
+        {
+          "text": "Did you"
+        },
+        {
+          "text": "Are you"
+        },
+        {
+          "text": "Is it"
+        },
+        {
+          "text": "Is there"
+        },
+        {
+          "text": "Have you"
+        },
+        {
+          "text": "May I"
+        },
+        {
+          "text": "Shall we"
+        },
+        {
+          "text": "What about"
+        },
+        {
+          "text": "How about"
+        },
+        {
+          "text": "Do you know"
+        },
+        {
+          "text": "Can you tell me"
+        },
+        {
+          "text": "Do you have"
+        },
+        {
+          "text": "Is this"
+        },
+        {
+          "text": "Are there"
+        },
+        {
+          "text": "What happened"
+        },
+        {
+          "text": "What do you mean"
+        },
+        {
+          "text": "What does that mean"
+        },
+        {
+          "text": "Where can I"
+        },
+        {
+          "text": "When will"
+        },
+        {
+          "text": "Why not"
+        },
+        {
+          "text": "How do I"
+        },
+        {
+          "text": "Whose"
+        },
+        {
+          "text": "What kind"
+        },
+        {
+          "text": "Which way"
+        }
+      ]
+    },
+    {
+      "id": "phrases",
+      "name": "Common Phrases",
+      "icon": "message-circle",
+      "words": [
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Please"
+        },
+        {
+          "text": "You're welcome"
+        },
+        {
+          "text": "Excuse me"
+        },
+        {
+          "text": "I'm sorry"
+        },
+        {
+          "text": "Sorry"
+        },
+        {
+          "text": "No problem"
+        },
+        {
+          "text": "That's okay"
+        },
+        {
+          "text": "I understand"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "I'm not sure"
+        },
+        {
+          "text": "I think so"
+        },
+        {
+          "text": "I don't think so"
+        },
+        {
+          "text": "Maybe"
+        },
+        {
+          "text": "Of course"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "I got it"
+        },
+        {
+          "text": "Yeah yeah I got it"
+        },
+        {
+          "text": "It's good"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "That's right"
+        },
+        {
+          "text": "That's wrong"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "Can you help me"
+        },
+        {
+          "text": "Wait a moment"
+        },
+        {
+          "text": "Just a minute"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "It doesn't matter"
+        },
+        {
+          "text": "I forgot"
+        },
+        {
+          "text": "I remember"
+        },
+        {
+          "text": "Let me think"
+        },
+        {
+          "text": "I want to say"
+        },
+        {
+          "text": "What I mean is"
+        },
+        {
+          "text": "In other words"
+        },
+        {
+          "text": "For example"
+        },
+        {
+          "text": "I prefer"
+        },
+        {
+          "text": "I would like"
+        },
+        {
+          "text": "I need"
+        },
+        {
+          "text": "I want"
+        },
+        {
+          "text": "I have"
+        },
+        {
+          "text": "I am"
+        },
+        {
+          "text": "It is"
+        },
+        {
+          "text": "There is"
+        },
+        {
+          "text": "There are"
+        },
+        {
+          "text": "Can you repeat that"
+        },
+        {
+          "text": "Please slow down"
+        },
+        {
+          "text": "I can't find the word"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "The word is on the tip of my tongue"
+        },
+        {
+          "text": "It's similar to"
+        },
+        {
+          "text": "It starts with"
+        },
+        {
+          "text": "Let me point to it"
+        },
+        {
+          "text": "I'll show you"
+        },
+        {
+          "text": "Please be patient"
+        },
+        {
+          "text": "I have aphasia"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "name": "Feelings & Emotions",
+      "icon": "heart",
+      "words": [
+        {
+          "text": "Happy"
+        },
+        {
+          "text": "Sad"
+        },
+        {
+          "text": "Angry"
+        },
+        {
+          "text": "Frustrated"
+        },
+        {
+          "text": "Worried"
+        },
+        {
+          "text": "Anxious"
+        },
+        {
+          "text": "Nervous"
+        },
+        {
+          "text": "Scared"
+        },
+        {
+          "text": "Afraid"
+        },
+        {
+          "text": "Confused"
+        },
+        {
+          "text": "Overwhelmed"
+        },
+        {
+          "text": "Tired"
+        },
+        {
+          "text": "Exhausted"
+        },
+        {
+          "text": "Energetic"
+        },
+        {
+          "text": "Calm"
+        },
+        {
+          "text": "Relaxed"
+        },
+        {
+          "text": "Stressed"
+        },
+        {
+          "text": "Excited"
+        },
+        {
+          "text": "Bored"
+        },
+        {
+          "text": "Lonely"
+        },
+        {
+          "text": "Hopeful"
+        },
+        {
+          "text": "Disappointed"
+        },
+        {
+          "text": "Grateful"
+        },
+        {
+          "text": "Thankful"
+        },
+        {
+          "text": "Proud"
+        },
+        {
+          "text": "Embarrassed"
+        },
+        {
+          "text": "Surprised"
+        },
+        {
+          "text": "Content"
+        },
+        {
+          "text": "Uncomfortable"
+        },
+        {
+          "text": "Irritated"
+        },
+        {
+          "text": "Relieved"
+        },
+        {
+          "text": "Peaceful"
+        },
+        {
+          "text": "Hurt"
+        },
+        {
+          "text": "Jealous"
+        },
+        {
+          "text": "Guilty"
+        },
+        {
+          "text": "Ashamed"
+        },
+        {
+          "text": "Loved"
+        },
+        {
+          "text": "Safe"
+        },
+        {
+          "text": "Insecure"
+        },
+        {
+          "text": "Confident"
+        },
+        {
+          "text": "Good"
+        },
+        {
+          "text": "Fine"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "Bad"
+        },
+        {
+          "text": "Terrible"
+        },
+        {
+          "text": "Better"
+        },
+        {
+          "text": "Worse"
+        },
+        {
+          "text": "Sick"
+        },
+        {
+          "text": "Hungry"
+        },
+        {
+          "text": "Thirsty"
+        },
+        {
+          "text": "Hot"
+        },
+        {
+          "text": "Cold"
+        },
+        {
+          "text": "Comfortable"
+        },
+        {
+          "text": "Pain"
+        },
+        {
+          "text": "Dizzy"
+        },
+        {
+          "text": "Weak"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "name": "Body Parts",
+      "icon": "person",
+      "words": [
+        {
+          "text": "Head"
+        },
+        {
+          "text": "Hair"
+        },
+        {
+          "text": "Face"
+        },
+        {
+          "text": "Forehead"
+        },
+        {
+          "text": "Eye"
+        },
+        {
+          "text": "Eyes"
+        },
+        {
+          "text": "Ear"
+        },
+        {
+          "text": "Ears"
+        },
+        {
+          "text": "Nose"
+        },
+        {
+          "text": "Mouth"
+        },
+        {
+          "text": "Lip"
+        },
+        {
+          "text": "Lips"
+        },
+        {
+          "text": "Tongue"
+        },
+        {
+          "text": "Teeth"
+        },
+        {
+          "text": "Tooth"
+        },
+        {
+          "text": "Jaw"
+        },
+        {
+          "text": "Chin"
+        },
+        {
+          "text": "Cheek"
+        },
+        {
+          "text": "Neck"
+        },
+        {
+          "text": "Throat"
+        },
+        {
+          "text": "Shoulder"
+        },
+        {
+          "text": "Arm"
+        },
+        {
+          "text": "Elbow"
+        },
+        {
+          "text": "Wrist"
+        },
+        {
+          "text": "Hand"
+        },
+        {
+          "text": "Palm"
+        },
+        {
+          "text": "Finger"
+        },
+        {
+          "text": "Thumb"
+        },
+        {
+          "text": "Fingernail"
+        },
+        {
+          "text": "Fist"
+        },
+        {
+          "text": "Chest"
+        },
+        {
+          "text": "Back"
+        },
+        {
+          "text": "Stomach"
+        },
+        {
+          "text": "Belly"
+        },
+        {
+          "text": "Abdomen"
+        },
+        {
+          "text": "Side"
+        },
+        {
+          "text": "Hip"
+        },
+        {
+          "text": "Waist"
+        },
+        {
+          "text": "Leg"
+        },
+        {
+          "text": "Thigh"
+        },
+        {
+          "text": "Knee"
+        },
+        {
+          "text": "Shin"
+        },
+        {
+          "text": "Calf"
+        },
+        {
+          "text": "Ankle"
+        },
+        {
+          "text": "Foot"
+        },
+        {
+          "text": "Feet"
+        },
+        {
+          "text": "Heel"
+        },
+        {
+          "text": "Toe"
+        },
+        {
+          "text": "Toes"
+        },
+        {
+          "text": "Skin"
+        },
+        {
+          "text": "Bone"
+        },
+        {
+          "text": "Muscle"
+        },
+        {
+          "text": "Joint"
+        },
+        {
+          "text": "Blood"
+        },
+        {
+          "text": "Heart"
+        },
+        {
+          "text": "Lung"
+        },
+        {
+          "text": "Lungs"
+        },
+        {
+          "text": "Brain"
+        },
+        {
+          "text": "Liver"
+        },
+        {
+          "text": "Kidney"
+        },
+        {
+          "text": "Bladder"
+        },
+        {
+          "text": "Left"
+        },
+        {
+          "text": "Right"
+        },
+        {
+          "text": "Both"
+        },
+        {
+          "text": "Upper"
+        },
+        {
+          "text": "Lower"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health & Medical",
+      "icon": "heart-pulse",
+      "words": [
+        {
+          "text": "Pain"
+        },
+        {
+          "text": "Ache"
+        },
+        {
+          "text": "Sharp pain"
+        },
+        {
+          "text": "Dull pain"
+        },
+        {
+          "text": "Throbbing"
+        },
+        {
+          "text": "Burning"
+        },
+        {
+          "text": "Cramping"
+        },
+        {
+          "text": "Tingling"
+        },
+        {
+          "text": "Numbness"
+        },
+        {
+          "text": "Stiff"
+        },
+        {
+          "text": "Sore"
+        },
+        {
+          "text": "Swollen"
+        },
+        {
+          "text": "Itchy"
+        },
+        {
+          "text": "Tired"
+        },
+        {
+          "text": "Weak"
+        },
+        {
+          "text": "Fatigue"
+        },
+        {
+          "text": "Exhausted"
+        },
+        {
+          "text": "Fever"
+        },
+        {
+          "text": "Chills"
+        },
+        {
+          "text": "Sweating"
+        },
+        {
+          "text": "Dizzy"
+        },
+        {
+          "text": "Faint"
+        },
+        {
+          "text": "Nauseous"
+        },
+        {
+          "text": "Vomiting"
+        },
+        {
+          "text": "Diarrhea"
+        },
+        {
+          "text": "Constipation"
+        },
+        {
+          "text": "Cough"
+        },
+        {
+          "text": "Cold"
+        },
+        {
+          "text": "Headache"
+        },
+        {
+          "text": "Migraine"
+        },
+        {
+          "text": "Infection"
+        },
+        {
+          "text": "Inflammation"
+        },
+        {
+          "text": "Injury"
+        },
+        {
+          "text": "Prescription"
+        },
+        {
+          "text": "Medication"
+        },
+        {
+          "text": "Pill"
+        },
+        {
+          "text": "Capsule"
+        },
+        {
+          "text": "Dose"
+        },
+        {
+          "text": "Refill"
+        },
+        {
+          "text": "Side effect"
+        },
+        {
+          "text": "Pharmacy"
+        },
+        {
+          "text": "Over the counter"
+        },
+        {
+          "text": "With food"
+        },
+        {
+          "text": "Twice daily"
+        },
+        {
+          "text": "High blood pressure"
+        },
+        {
+          "text": "Diabetes"
+        },
+        {
+          "text": "Heart disease"
+        },
+        {
+          "text": "Arthritis"
+        },
+        {
+          "text": "Allergies"
+        },
+        {
+          "text": "Asthma"
+        },
+        {
+          "text": "Cholesterol"
+        },
+        {
+          "text": "Hernia"
+        },
+        {
+          "text": "Doctor"
+        },
+        {
+          "text": "Nurse"
+        },
+        {
+          "text": "Specialist"
+        },
+        {
+          "text": "Surgeon"
+        },
+        {
+          "text": "Surgery"
+        },
+        {
+          "text": "Dentist"
+        },
+        {
+          "text": "Therapist"
+        },
+        {
+          "text": "Physical therapist"
+        },
+        {
+          "text": "Speech therapist"
+        },
+        {
+          "text": "Pharmacist"
+        },
+        {
+          "text": "Appointment"
+        },
+        {
+          "text": "Check-up"
+        },
+        {
+          "text": "Test"
+        },
+        {
+          "text": "Blood test"
+        },
+        {
+          "text": "X-ray"
+        },
+        {
+          "text": "Scan"
+        },
+        {
+          "text": "Results"
+        },
+        {
+          "text": "Follow-up"
+        },
+        {
+          "text": "Referral"
+        },
+        {
+          "text": "Hearing aids"
+        },
+        {
+          "text": "Glasses"
+        },
+        {
+          "text": "Walker"
+        },
+        {
+          "text": "Wheelchair"
+        },
+        {
+          "text": "Cane"
+        },
+        {
+          "text": "Blood pressure monitor"
+        },
+        {
+          "text": "Inhaler"
+        },
+        {
+          "text": "Hospital"
+        },
+        {
+          "text": "Emergency room"
+        },
+        {
+          "text": "Clinic"
+        },
+        {
+          "text": "Urgent care"
+        },
+        {
+          "text": "Waiting room"
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "name": "Medical Appointments",
+      "icon": "stethoscope",
+      "words": [
+        {
+          "text": "I have an appointment",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "My name is...",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "I need to check in",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "Here is my health card",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "I'm here to see Dr...",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "What time is my appointment?",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "How long is the wait?",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "Where do I sit?",
+          "usage": "Arriving at office"
+        },
+        {
+          "text": "I need to tell you...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "I have a concern about...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "Something is wrong with my...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "I've been having...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "It started...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "It hurts when...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "I feel...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "Can you check my...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "I need a refill",
+          "usage": "During appointment"
+        },
+        {
+          "text": "My medication isn't working",
+          "usage": "During appointment"
+        },
+        {
+          "text": "I have a question about...",
+          "usage": "During appointment"
+        },
+        {
+          "text": "What do you recommend?",
+          "usage": "During appointment"
+        },
+        {
+          "text": "What is wrong?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "What is the diagnosis?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "What caused this?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "What treatment do I need?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "Do I need medication?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "Do I need tests?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "When should I come back?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "Should I see a specialist?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "Is this serious?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "What should I watch for?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "Are there side effects?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "When will I feel better?",
+          "usage": "Questions to ask"
+        },
+        {
+          "text": "Where do I get blood work?",
+          "usage": "After appointment"
+        },
+        {
+          "text": "Where is the lab?",
+          "usage": "After appointment"
+        },
+        {
+          "text": "Where is the pharmacy?",
+          "usage": "After appointment"
+        },
+        {
+          "text": "When is my next appointment?",
+          "usage": "After appointment"
+        },
+        {
+          "text": "How do I make an appointment?",
+          "usage": "After appointment"
+        },
+        {
+          "text": "I need a referral",
+          "usage": "After appointment"
+        },
+        {
+          "text": "I need a prescription",
+          "usage": "After appointment"
+        },
+        {
+          "text": "I need a note for...",
+          "usage": "After appointment"
+        },
+        {
+          "text": "pill",
+          "usage": "Medication types"
+        },
+        {
+          "text": "tablet",
+          "usage": "Medication types"
+        },
+        {
+          "text": "capsule",
+          "usage": "Medication types"
+        },
+        {
+          "text": "liquid",
+          "usage": "Medication types"
+        },
+        {
+          "text": "syrup",
+          "usage": "Medication types"
+        },
+        {
+          "text": "drops",
+          "usage": "Medication types"
+        },
+        {
+          "text": "cream",
+          "usage": "Medication types"
+        },
+        {
+          "text": "ointment",
+          "usage": "Medication types"
+        },
+        {
+          "text": "gel",
+          "usage": "Medication types"
+        },
+        {
+          "text": "patch",
+          "usage": "Medication types"
+        },
+        {
+          "text": "injection",
+          "usage": "Medication types"
+        },
+        {
+          "text": "inhaler",
+          "usage": "Medication types"
+        },
+        {
+          "text": "spray",
+          "usage": "Medication types"
+        },
+        {
+          "text": "once a day",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "twice a day",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "three times a day",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "every 4 hours",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "every 6 hours",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "every 8 hours",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "with food",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "without food",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "before meals",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "after meals",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "at bedtime",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "in the morning",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "as needed",
+          "usage": "Medication instructions"
+        },
+        {
+          "text": "I forgot to take it",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "I took too much",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "I ran out",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "It makes me feel sick",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "It doesn't work",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "I have side effects",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "The dose is too strong",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "The dose is too weak",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "I'm allergic to it",
+          "usage": "Problems with medication"
+        },
+        {
+          "text": "[Medication Name] — [Dose] — [When Taken]",
+          "usage": "My Current Medications"
+        },
+        {
+          "text": "[Medication Name] — [Dose] — [When Taken]",
+          "usage": "My Current Medications"
+        },
+        {
+          "text": "[Medication Name] — [Dose] — [When Taken]",
+          "usage": "My Current Medications"
+        },
+        {
+          "text": "[Medication Name] — [Dose] — [When Taken]",
+          "usage": "My Current Medications"
+        },
+        {
+          "text": "[Medication Name] — [Dose] — [When Taken]",
+          "usage": "My Current Medications"
+        },
+        {
+          "text": "[Medication Name] — [Dose] — [When Taken]",
+          "usage": "My Current Medications"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency & Safety",
+      "icon": "alert-triangle",
+      "words": [
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Emergency"
+        },
+        {
+          "text": "Call 911"
+        },
+        {
+          "text": "Police"
+        },
+        {
+          "text": "Fire"
+        },
+        {
+          "text": "Ambulance"
+        },
+        {
+          "text": "Hospital"
+        },
+        {
+          "text": "Doctor"
+        },
+        {
+          "text": "Nurse"
+        },
+        {
+          "text": "Hurt"
+        },
+        {
+          "text": "Pain"
+        },
+        {
+          "text": "Sick"
+        },
+        {
+          "text": "Accident"
+        },
+        {
+          "text": "Fall"
+        },
+        {
+          "text": "Bleeding"
+        },
+        {
+          "text": "Breathing problem"
+        },
+        {
+          "text": "Chest pain"
+        },
+        {
+          "text": "Can't breathe"
+        },
+        {
+          "text": "Heart attack"
+        },
+        {
+          "text": "Stroke"
+        },
+        {
+          "text": "Choking"
+        },
+        {
+          "text": "Allergic reaction"
+        },
+        {
+          "text": "Unconscious"
+        },
+        {
+          "text": "Fainted"
+        },
+        {
+          "text": "Dizzy"
+        },
+        {
+          "text": "Medication"
+        },
+        {
+          "text": "I have aphasia"
+        },
+        {
+          "text": "I need help communicating"
+        },
+        {
+          "text": "Please be patient with me"
+        },
+        {
+          "text": "I understand you"
+        },
+        {
+          "text": "Stop"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Danger"
+        },
+        {
+          "text": "Warning"
+        },
+        {
+          "text": "Be careful"
+        },
+        {
+          "text": "Watch out"
+        },
+        {
+          "text": "Safe"
+        },
+        {
+          "text": "Not safe"
+        },
+        {
+          "text": "Exit"
+        },
+        {
+          "text": "Entrance"
+        },
+        {
+          "text": "Phone"
+        },
+        {
+          "text": "Address"
+        },
+        {
+          "text": "Name"
+        },
+        {
+          "text": "My name is"
+        },
+        {
+          "text": "Contact"
+        },
+        {
+          "text": "Family member"
+        },
+        {
+          "text": "Lost"
+        },
+        {
+          "text": "Found"
+        },
+        {
+          "text": "Stolen"
+        },
+        {
+          "text": "Missing"
+        },
+        {
+          "text": "Locked out"
+        },
+        {
+          "text": "Broken"
+        },
+        {
+          "text": "Power outage"
+        },
+        {
+          "text": "Smoke detector"
+        },
+        {
+          "text": "Fire extinguisher"
+        },
+        {
+          "text": "First aid"
+        },
+        {
+          "text": "Medical alert"
+        },
+        {
+          "text": "Allergy"
+        },
+        {
+          "text": "Medical condition"
+        },
+        {
+          "text": "Blood type"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Dining & Restaurants",
+      "icon": "utensils",
+      "words": [
+        {
+          "text": "Breakfast",
+          "usage": "Meals"
+        },
+        {
+          "text": "Lunch",
+          "usage": "Meals"
+        },
+        {
+          "text": "Dinner",
+          "usage": "Meals"
+        },
+        {
+          "text": "Supper",
+          "usage": "Meals"
+        },
+        {
+          "text": "Brunch",
+          "usage": "Meals"
+        },
+        {
+          "text": "Snack",
+          "usage": "Meals"
+        },
+        {
+          "text": "Restaurant",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Café",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Coffee shop",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Diner",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Cafeteria",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Food court",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Patio",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Takeout",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Delivery",
+          "usage": "Places to eat"
+        },
+        {
+          "text": "Menu",
+          "usage": "Ordering"
+        },
+        {
+          "text": "Specials",
+          "usage": "Ordering"
+        },
+        {
+          "text": "I would like...",
+          "usage": "Ordering"
+        },
+        {
+          "text": "Can I have...",
+          "usage": "Ordering"
+        },
+        {
+          "text": "I'll have the...",
+          "usage": "Ordering"
+        },
+        {
+          "text": "To go",
+          "usage": "Ordering"
+        },
+        {
+          "text": "For here",
+          "usage": "Ordering"
+        },
+        {
+          "text": "Refill",
+          "usage": "Ordering"
+        },
+        {
+          "text": "Table for...",
+          "usage": "Seating"
+        },
+        {
+          "text": "Reservation",
+          "usage": "Seating"
+        },
+        {
+          "text": "Booth",
+          "usage": "Seating"
+        },
+        {
+          "text": "High chair",
+          "usage": "Seating"
+        },
+        {
+          "text": "Accessible seating",
+          "usage": "Seating"
+        },
+        {
+          "text": "Vegetarian",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "Vegan",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "Gluten-free",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "Dairy-free",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "Nut allergy",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "No... please",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "Does this contain...?",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "I'm allergic to...",
+          "usage": "Dietary needs"
+        },
+        {
+          "text": "Bill",
+          "usage": "Paying"
+        },
+        {
+          "text": "Check",
+          "usage": "Paying"
+        },
+        {
+          "text": "Separate bills",
+          "usage": "Paying"
+        },
+        {
+          "text": "Together",
+          "usage": "Paying"
+        },
+        {
+          "text": "Tip",
+          "usage": "Paying"
+        },
+        {
+          "text": "Credit card",
+          "usage": "Paying"
+        },
+        {
+          "text": "Debit",
+          "usage": "Paying"
+        },
+        {
+          "text": "Cash",
+          "usage": "Paying"
+        },
+        {
+          "text": "Receipt",
+          "usage": "Paying"
+        },
+        {
+          "text": "Server",
+          "usage": "Staff"
+        },
+        {
+          "text": "Waiter",
+          "usage": "Staff"
+        },
+        {
+          "text": "Waitress",
+          "usage": "Staff"
+        },
+        {
+          "text": "Host",
+          "usage": "Staff"
+        },
+        {
+          "text": "Manager",
+          "usage": "Staff"
+        },
+        {
+          "text": "Excuse me",
+          "usage": "Getting attention"
+        },
+        {
+          "text": "When you have a moment",
+          "usage": "Getting attention"
+        },
+        {
+          "text": "Could you help me?",
+          "usage": "Getting attention"
+        },
+        {
+          "text": "Delicious",
+          "usage": "Feedback"
+        },
+        {
+          "text": "Very good",
+          "usage": "Feedback"
+        },
+        {
+          "text": "Too spicy",
+          "usage": "Feedback"
+        },
+        {
+          "text": "Too salty",
+          "usage": "Feedback"
+        },
+        {
+          "text": "Cold",
+          "usage": "Feedback"
+        },
+        {
+          "text": "This isn't what I ordered",
+          "usage": "Feedback"
+        },
+        {
+          "text": "Leftovers",
+          "usage": "After the meal"
+        },
+        {
+          "text": "Doggy bag",
+          "usage": "After the meal"
+        },
+        {
+          "text": "To-go box",
+          "usage": "After the meal"
+        },
+        {
+          "text": "Washroom",
+          "usage": "After the meal"
+        },
+        {
+          "text": "Thank you",
+          "usage": "After the meal"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home & Household",
+      "icon": "home",
+      "words": [
+        {
+          "text": "Kitchen"
+        },
+        {
+          "text": "Bathroom"
+        },
+        {
+          "text": "Bedroom"
+        },
+        {
+          "text": "Living room"
+        },
+        {
+          "text": "Dining room"
+        },
+        {
+          "text": "Basement"
+        },
+        {
+          "text": "Attic"
+        },
+        {
+          "text": "Garage"
+        },
+        {
+          "text": "Yard"
+        },
+        {
+          "text": "Porch"
+        },
+        {
+          "text": "Deck"
+        },
+        {
+          "text": "Refrigerator"
+        },
+        {
+          "text": "Freezer"
+        },
+        {
+          "text": "Stove"
+        },
+        {
+          "text": "Oven"
+        },
+        {
+          "text": "Microwave"
+        },
+        {
+          "text": "Dishwasher"
+        },
+        {
+          "text": "Toaster"
+        },
+        {
+          "text": "Coffee maker"
+        },
+        {
+          "text": "Blender"
+        },
+        {
+          "text": "Kettle"
+        },
+        {
+          "text": "Pot"
+        },
+        {
+          "text": "Pan"
+        },
+        {
+          "text": "Knife"
+        },
+        {
+          "text": "Fork"
+        },
+        {
+          "text": "Spoon"
+        },
+        {
+          "text": "Plate"
+        },
+        {
+          "text": "Bowl"
+        },
+        {
+          "text": "Cup"
+        },
+        {
+          "text": "Mug"
+        },
+        {
+          "text": "Glass"
+        },
+        {
+          "text": "Sink"
+        },
+        {
+          "text": "Faucet"
+        },
+        {
+          "text": "Counter"
+        },
+        {
+          "text": "Cabinet"
+        },
+        {
+          "text": "Drawer"
+        },
+        {
+          "text": "Pantry"
+        },
+        {
+          "text": "Toilet"
+        },
+        {
+          "text": "Shower"
+        },
+        {
+          "text": "Bathtub"
+        },
+        {
+          "text": "Mirror"
+        },
+        {
+          "text": "Towel"
+        },
+        {
+          "text": "Soap"
+        },
+        {
+          "text": "Shampoo"
+        },
+        {
+          "text": "Toothbrush"
+        },
+        {
+          "text": "Toothpaste"
+        },
+        {
+          "text": "Bed"
+        },
+        {
+          "text": "Mattress"
+        },
+        {
+          "text": "Pillow"
+        },
+        {
+          "text": "Blanket"
+        },
+        {
+          "text": "Sheets"
+        },
+        {
+          "text": "Closet"
+        },
+        {
+          "text": "Dresser"
+        },
+        {
+          "text": "Nightstand"
+        },
+        {
+          "text": "Lamp"
+        },
+        {
+          "text": "Couch"
+        },
+        {
+          "text": "Sofa"
+        },
+        {
+          "text": "Chair"
+        },
+        {
+          "text": "Recliner"
+        },
+        {
+          "text": "Coffee table"
+        },
+        {
+          "text": "TV"
+        },
+        {
+          "text": "Remote"
+        },
+        {
+          "text": "Rug"
+        },
+        {
+          "text": "Curtains"
+        },
+        {
+          "text": "Blinds"
+        },
+        {
+          "text": "Table"
+        },
+        {
+          "text": "Washer"
+        },
+        {
+          "text": "Dryer"
+        },
+        {
+          "text": "Vacuum"
+        },
+        {
+          "text": "Broom"
+        },
+        {
+          "text": "Mop"
+        },
+        {
+          "text": "Garbage"
+        },
+        {
+          "text": "Recycling"
+        },
+        {
+          "text": "Thermostat"
+        },
+        {
+          "text": "Heater"
+        },
+        {
+          "text": "Air conditioner"
+        },
+        {
+          "text": "Fan"
+        },
+        {
+          "text": "Light switch"
+        },
+        {
+          "text": "Outlet"
+        },
+        {
+          "text": "Door"
+        },
+        {
+          "text": "Window"
+        },
+        {
+          "text": "Key"
+        },
+        {
+          "text": "Lock"
+        },
+        {
+          "text": "Doorbell"
+        },
+        {
+          "text": "Stairs"
+        },
+        {
+          "text": "Hallway"
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "icon": "shirt",
+      "words": [
+        {
+          "text": "Shirt"
+        },
+        {
+          "text": "T-shirt"
+        },
+        {
+          "text": "Blouse"
+        },
+        {
+          "text": "Sweater"
+        },
+        {
+          "text": "Cardigan"
+        },
+        {
+          "text": "Hoodie"
+        },
+        {
+          "text": "Jacket"
+        },
+        {
+          "text": "Coat"
+        },
+        {
+          "text": "Pants"
+        },
+        {
+          "text": "Jeans"
+        },
+        {
+          "text": "Shorts"
+        },
+        {
+          "text": "Skirt"
+        },
+        {
+          "text": "Dress"
+        },
+        {
+          "text": "Suit"
+        },
+        {
+          "text": "Tie"
+        },
+        {
+          "text": "Underwear"
+        },
+        {
+          "text": "Bra"
+        },
+        {
+          "text": "Socks"
+        },
+        {
+          "text": "Pajamas"
+        },
+        {
+          "text": "Robe"
+        },
+        {
+          "text": "Nightgown"
+        },
+        {
+          "text": "Shoes"
+        },
+        {
+          "text": "Sneakers"
+        },
+        {
+          "text": "Boots"
+        },
+        {
+          "text": "Sandals"
+        },
+        {
+          "text": "Slippers"
+        },
+        {
+          "text": "Heels"
+        },
+        {
+          "text": "Flats"
+        },
+        {
+          "text": "Hat"
+        },
+        {
+          "text": "Cap"
+        },
+        {
+          "text": "Scarf"
+        },
+        {
+          "text": "Gloves"
+        },
+        {
+          "text": "Mittens"
+        },
+        {
+          "text": "Belt"
+        },
+        {
+          "text": "Watch"
+        },
+        {
+          "text": "Glasses"
+        },
+        {
+          "text": "Sunglasses"
+        },
+        {
+          "text": "Jewelry"
+        },
+        {
+          "text": "Ring"
+        },
+        {
+          "text": "Necklace"
+        },
+        {
+          "text": "Earrings"
+        },
+        {
+          "text": "Bracelet"
+        },
+        {
+          "text": "Purse"
+        },
+        {
+          "text": "Wallet"
+        },
+        {
+          "text": "Bag"
+        },
+        {
+          "text": "Backpack"
+        },
+        {
+          "text": "Pocket"
+        },
+        {
+          "text": "Button"
+        },
+        {
+          "text": "Zipper"
+        },
+        {
+          "text": "Laundry"
+        },
+        {
+          "text": "Clean"
+        },
+        {
+          "text": "Dirty"
+        },
+        {
+          "text": "Iron"
+        },
+        {
+          "text": "Fold"
+        },
+        {
+          "text": "Hang up"
+        },
+        {
+          "text": "Put on"
+        },
+        {
+          "text": "Take off"
+        },
+        {
+          "text": "Change"
+        },
+        {
+          "text": "Get dressed"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "name": "Places & Locations",
+      "icon": "map-pin",
+      "words": [
+        {
+          "text": "Downtown",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Financial District",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Entertainment District",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Harbourfront",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "St. Lawrence Market",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Distillery District",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Chinatown",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Kensington Market",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Queen West",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "King West",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Corktown",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Cabbagetown",
+          "usage": "Toronto - Downtown"
+        },
+        {
+          "text": "Midtown",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Yorkville",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Rosedale",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Forest Hill",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "The Annex",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Casa Loma",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Summerhill",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Moore Park",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Deer Park",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Davisville",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "Mount Pleasant",
+          "usage": "Toronto - Midtown"
+        },
+        {
+          "text": "East York",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Riverdale",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Leslieville",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "The Beaches",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Danforth",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Greektown",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "High Park",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Parkdale",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Roncesvalles",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Junction",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Bloor West Village",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Liberty Village",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "North York",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Willowdale",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Don Mills",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Scarborough",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "Etobicoke",
+          "usage": "Toronto - Other"
+        },
+        {
+          "text": "CN Tower",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Rogers Centre",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Scotiabank Arena",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Union Station",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Toronto City Hall",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Nathan Phillips Square",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Ontario Place",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Exhibition Place",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Eaton Centre",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "PATH (underground)",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Royal Ontario Museum (ROM)",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Art Gallery of Ontario (AGO)",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Ontario Science Centre",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Ripley's Aquarium",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Toronto Zoo",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Hockey Hall of Fame",
+          "usage": "Toronto landmarks"
+        },
+        {
+          "text": "Trinity Bellwoods Park",
+          "usage": "Parks"
+        },
+        {
+          "text": "Riverdale Park",
+          "usage": "Parks"
+        },
+        {
+          "text": "Queen's Park",
+          "usage": "Parks"
+        },
+        {
+          "text": "Edwards Gardens",
+          "usage": "Parks"
+        },
+        {
+          "text": "Toronto Islands",
+          "usage": "Parks"
+        },
+        {
+          "text": "Rouge Park",
+          "usage": "Parks"
+        },
+        {
+          "text": "Scarborough Bluffs",
+          "usage": "Parks"
+        },
+        {
+          "text": "Yorkdale Mall",
+          "usage": "Shopping centres"
+        },
+        {
+          "text": "Scarborough Town Centre",
+          "usage": "Shopping centres"
+        },
+        {
+          "text": "Fairview Mall",
+          "usage": "Shopping centres"
+        },
+        {
+          "text": "Sherway Gardens",
+          "usage": "Shopping centres"
+        },
+        {
+          "text": "Dufferin Mall",
+          "usage": "Shopping centres"
+        },
+        {
+          "text": "left",
+          "usage": "Directions"
+        },
+        {
+          "text": "right",
+          "usage": "Directions"
+        },
+        {
+          "text": "straight",
+          "usage": "Directions"
+        },
+        {
+          "text": "ahead",
+          "usage": "Directions"
+        },
+        {
+          "text": "back",
+          "usage": "Directions"
+        },
+        {
+          "text": "forward",
+          "usage": "Directions"
+        },
+        {
+          "text": "behind",
+          "usage": "Directions"
+        },
+        {
+          "text": "beside",
+          "usage": "Directions"
+        },
+        {
+          "text": "next to",
+          "usage": "Directions"
+        },
+        {
+          "text": "across from",
+          "usage": "Directions"
+        },
+        {
+          "text": "near",
+          "usage": "Directions"
+        },
+        {
+          "text": "far",
+          "usage": "Directions"
+        },
+        {
+          "text": "close",
+          "usage": "Directions"
+        },
+        {
+          "text": "corner",
+          "usage": "Directions"
+        },
+        {
+          "text": "block",
+          "usage": "Directions"
+        },
+        {
+          "text": "Go straight",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "Turn left",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "Turn right",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "It's on the left",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "It's on the right",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "Go past the...",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "Stop at the...",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "You'll see the...",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "It's next to the...",
+          "usage": "Giving directions"
+        },
+        {
+          "text": "car",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "truck",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "van",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "SUV",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "minivan",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "taxi",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "cab",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "Uber",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "Lyft",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "bus",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "shuttle",
+          "usage": "Vehicles"
+        },
+        {
+          "text": "drive",
+          "usage": "Driving words"
+        },
+        {
+          "text": "park",
+          "usage": "Driving words"
+        },
+        {
+          "text": "stop",
+          "usage": "Driving words"
+        },
+        {
+          "text": "turn",
+          "usage": "Driving words"
+        },
+        {
+          "text": "turn left",
+          "usage": "Driving words"
+        },
+        {
+          "text": "turn right",
+          "usage": "Driving words"
+        },
+        {
+          "text": "go straight",
+          "usage": "Driving words"
+        },
+        {
+          "text": "slow down",
+          "usage": "Driving words"
+        },
+        {
+          "text": "speed up",
+          "usage": "Driving words"
+        },
+        {
+          "text": "back up",
+          "usage": "Driving words"
+        },
+        {
+          "text": "reverse",
+          "usage": "Driving words"
+        },
+        {
+          "text": "highway",
+          "usage": "Driving words"
+        },
+        {
+          "text": "street",
+          "usage": "Driving words"
+        },
+        {
+          "text": "intersection",
+          "usage": "Driving words"
+        },
+        {
+          "text": "traffic light",
+          "usage": "Driving words"
+        },
+        {
+          "text": "stop sign",
+          "usage": "Driving words"
+        }
+      ]
+    },
+    {
+      "id": "ttc",
+      "name": "TTC Subway - Toronto Transit",
+      "icon": "train",
+      "words": [
+        {
+          "text": "TTC",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "subway",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "streetcar",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "station",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "platform",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "track",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "route",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "line",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "PRESTO card",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "tap",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "transfer",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "fare",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "entrance",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "exit",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "escalator",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "elevator",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "stairs",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "accessible",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "delay",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "service alert",
+          "usage": "Transit basics"
+        },
+        {
+          "text": "Which way to...?",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "Is this the right train?",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "Does this bus go to...?",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "Where do I transfer?",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "How many stops?",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "What's the next stop?",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "I need to get off at...",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "Excuse me, getting off",
+          "usage": "Transit phrases"
+        },
+        {
+          "text": "Vaughan Metropolitan Centre",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Highway 407",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Pioneer Village",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "York University",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Finch West",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Downsview Park",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Sheppard West",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Wilson",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Yorkdale",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Lawrence West",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Glencairn",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Eglinton West",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "St. Clair West",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Dupont",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Spadina",
+          "usage": "Line 1 - Yellow (transfer)"
+        },
+        {
+          "text": "St. George",
+          "usage": "Line 1 - Yellow (transfer)"
+        },
+        {
+          "text": "Museum",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Queen's Park",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "St. Patrick",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Osgoode",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "St. Andrew",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Union",
+          "usage": "Line 1 - Yellow (transfer)"
+        },
+        {
+          "text": "King",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Queen",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Dundas",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "College",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Wellesley",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Bloor-Yonge",
+          "usage": "Line 1 - Yellow (transfer)"
+        },
+        {
+          "text": "Rosedale",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Summerhill",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "St. Clair",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Eglinton",
+          "usage": "Line 1 - Yellow (transfer)"
+        },
+        {
+          "text": "Davisville",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Lawrence",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "York Mills",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Sheppard-Yonge",
+          "usage": "Line 1 - Yellow (transfer)"
+        },
+        {
+          "text": "North York Centre",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Finch",
+          "usage": "Line 1 - Yellow"
+        },
+        {
+          "text": "Kipling",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Islington",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Royal York",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Old Mill",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Jane",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Runnymede",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "High Park",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Keele",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Dundas West",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "★ Lansdowne",
+          "usage": "Line 2 - Green (nearby)"
+        },
+        {
+          "text": "★ Dufferin",
+          "usage": "Line 2 - Green (nearby)"
+        },
+        {
+          "text": "★ Ossington",
+          "usage": "Line 2 - Green (nearby)"
+        },
+        {
+          "text": "★ Christie",
+          "usage": "Line 2 - Green (nearby)"
+        },
+        {
+          "text": "★ Bathurst",
+          "usage": "Line 2 - Green (nearby)"
+        },
+        {
+          "text": "Bay",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Sherbourne",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Castle Frank",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Broadview",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Chester",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Pape",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Donlands",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Greenwood",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Coxwell",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Woodbine",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Main Street",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Victoria Park",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Warden",
+          "usage": "Line 2 - Green"
+        },
+        {
+          "text": "Kennedy",
+          "usage": "Line 2 - Green (transfer)"
+        },
+        {
+          "text": "Bayview",
+          "usage": "Line 4 - Purple"
+        },
+        {
+          "text": "Bessarion",
+          "usage": "Line 4 - Purple"
+        },
+        {
+          "text": "Leslie",
+          "usage": "Line 4 - Purple"
+        },
+        {
+          "text": "Don Mills",
+          "usage": "Line 4 - Purple"
+        },
+        {
+          "text": "Mount Dennis",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Keelesdale",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Caledonia",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Fairbank",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Oakwood",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Cedarvale",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Forest Hill",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Chaplin",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Avenue",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Leaside",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Laird",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Don Mills Road",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Science Centre",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Aga Khan Museum",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Ferrand",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Wynford",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Sloane",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "O'Connor",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Pharmacy",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Hakimi Lebovic",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Golden Mile",
+          "usage": "Line 5 - Orange"
+        },
+        {
+          "text": "Birchmount",
+          "usage": "Line 5 - Orange"
+        }
+      ]
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "icon": "car",
+      "words": [
+        {
+          "text": "Car"
+        },
+        {
+          "text": "Truck"
+        },
+        {
+          "text": "Van"
+        },
+        {
+          "text": "SUV"
+        },
+        {
+          "text": "Bus"
+        },
+        {
+          "text": "Train"
+        },
+        {
+          "text": "Subway"
+        },
+        {
+          "text": "Taxi"
+        },
+        {
+          "text": "Uber"
+        },
+        {
+          "text": "Ambulance"
+        },
+        {
+          "text": "Airplane"
+        },
+        {
+          "text": "Flight"
+        },
+        {
+          "text": "Bicycle"
+        },
+        {
+          "text": "Bike"
+        },
+        {
+          "text": "Motorcycle"
+        },
+        {
+          "text": "Walk"
+        },
+        {
+          "text": "Drive"
+        },
+        {
+          "text": "Ride"
+        },
+        {
+          "text": "Pick up"
+        },
+        {
+          "text": "Drop off"
+        },
+        {
+          "text": "Airport"
+        },
+        {
+          "text": "Train station"
+        },
+        {
+          "text": "Bus station"
+        },
+        {
+          "text": "Bus stop"
+        },
+        {
+          "text": "Parking lot"
+        },
+        {
+          "text": "Parking garage"
+        },
+        {
+          "text": "Gas station"
+        },
+        {
+          "text": "Highway"
+        },
+        {
+          "text": "Street"
+        },
+        {
+          "text": "Road"
+        },
+        {
+          "text": "Intersection"
+        },
+        {
+          "text": "Traffic light"
+        },
+        {
+          "text": "Stop sign"
+        },
+        {
+          "text": "Speed limit"
+        },
+        {
+          "text": "Left turn"
+        },
+        {
+          "text": "Right turn"
+        },
+        {
+          "text": "Straight ahead"
+        },
+        {
+          "text": "U-turn"
+        },
+        {
+          "text": "Exit"
+        },
+        {
+          "text": "Entrance"
+        },
+        {
+          "text": "Lane"
+        },
+        {
+          "text": "Sidewalk"
+        },
+        {
+          "text": "Crosswalk"
+        },
+        {
+          "text": "Bridge"
+        },
+        {
+          "text": "Tunnel"
+        },
+        {
+          "text": "Traffic"
+        },
+        {
+          "text": "Detour"
+        },
+        {
+          "text": "Directions"
+        },
+        {
+          "text": "GPS"
+        },
+        {
+          "text": "Map"
+        },
+        {
+          "text": "License"
+        },
+        {
+          "text": "Registration"
+        },
+        {
+          "text": "Insurance"
+        },
+        {
+          "text": "Seat belt"
+        },
+        {
+          "text": "Tire"
+        },
+        {
+          "text": "Gas"
+        },
+        {
+          "text": "Oil"
+        },
+        {
+          "text": "Flat tire"
+        },
+        {
+          "text": "Accident"
+        },
+        {
+          "text": "Mechanic"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "name": "Time & Dates",
+      "icon": "clock",
+      "words": [
+        {
+          "text": "Today"
+        },
+        {
+          "text": "Tomorrow"
+        },
+        {
+          "text": "Yesterday"
+        },
+        {
+          "text": "Now"
+        },
+        {
+          "text": "Later"
+        },
+        {
+          "text": "Soon"
+        },
+        {
+          "text": "Before"
+        },
+        {
+          "text": "After"
+        },
+        {
+          "text": "Morning"
+        },
+        {
+          "text": "Afternoon"
+        },
+        {
+          "text": "Evening"
+        },
+        {
+          "text": "Night"
+        },
+        {
+          "text": "Noon"
+        },
+        {
+          "text": "Midnight"
+        },
+        {
+          "text": "Tonight"
+        },
+        {
+          "text": "This morning"
+        },
+        {
+          "text": "This afternoon"
+        },
+        {
+          "text": "This evening"
+        },
+        {
+          "text": "Monday"
+        },
+        {
+          "text": "Tuesday"
+        },
+        {
+          "text": "Wednesday"
+        },
+        {
+          "text": "Thursday"
+        },
+        {
+          "text": "Friday"
+        },
+        {
+          "text": "Saturday"
+        },
+        {
+          "text": "Sunday"
+        },
+        {
+          "text": "Weekday"
+        },
+        {
+          "text": "Weekend"
+        },
+        {
+          "text": "This week"
+        },
+        {
+          "text": "Next week"
+        },
+        {
+          "text": "Last week"
+        },
+        {
+          "text": "January"
+        },
+        {
+          "text": "February"
+        },
+        {
+          "text": "March"
+        },
+        {
+          "text": "April"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "June"
+        },
+        {
+          "text": "July"
+        },
+        {
+          "text": "August"
+        },
+        {
+          "text": "September"
+        },
+        {
+          "text": "October"
+        },
+        {
+          "text": "November"
+        },
+        {
+          "text": "December"
+        },
+        {
+          "text": "Spring"
+        },
+        {
+          "text": "Summer"
+        },
+        {
+          "text": "Fall"
+        },
+        {
+          "text": "Winter"
+        },
+        {
+          "text": "This month"
+        },
+        {
+          "text": "Next month"
+        },
+        {
+          "text": "Last month"
+        },
+        {
+          "text": "This year"
+        },
+        {
+          "text": "Next year"
+        },
+        {
+          "text": "Last year"
+        },
+        {
+          "text": "Minute"
+        },
+        {
+          "text": "Hour"
+        },
+        {
+          "text": "Day"
+        },
+        {
+          "text": "Week"
+        },
+        {
+          "text": "Month"
+        },
+        {
+          "text": "Year"
+        },
+        {
+          "text": "O'clock"
+        },
+        {
+          "text": "Half past"
+        },
+        {
+          "text": "Quarter past"
+        },
+        {
+          "text": "Quarter to"
+        },
+        {
+          "text": "A.M."
+        },
+        {
+          "text": "P.M."
+        },
+        {
+          "text": "Early"
+        },
+        {
+          "text": "Late"
+        },
+        {
+          "text": "On time"
+        },
+        {
+          "text": "Always"
+        },
+        {
+          "text": "Usually"
+        },
+        {
+          "text": "Often"
+        },
+        {
+          "text": "Sometimes"
+        },
+        {
+          "text": "Rarely"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Daily"
+        },
+        {
+          "text": "Weekly"
+        },
+        {
+          "text": "Monthly"
+        },
+        {
+          "text": "Appointment"
+        },
+        {
+          "text": "Schedule"
+        },
+        {
+          "text": "Calendar"
+        },
+        {
+          "text": "Birthday"
+        },
+        {
+          "text": "Anniversary"
+        },
+        {
+          "text": "Holiday"
+        },
+        {
+          "text": "Vacation"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers & Money",
+      "icon": "calculator",
+      "words": [
+        {
+          "text": "Zero"
+        },
+        {
+          "text": "One"
+        },
+        {
+          "text": "Two"
+        },
+        {
+          "text": "Three"
+        },
+        {
+          "text": "Four"
+        },
+        {
+          "text": "Five"
+        },
+        {
+          "text": "Six"
+        },
+        {
+          "text": "Seven"
+        },
+        {
+          "text": "Eight"
+        },
+        {
+          "text": "Nine"
+        },
+        {
+          "text": "Ten"
+        },
+        {
+          "text": "Eleven"
+        },
+        {
+          "text": "Twelve"
+        },
+        {
+          "text": "Thirteen"
+        },
+        {
+          "text": "Fourteen"
+        },
+        {
+          "text": "Fifteen"
+        },
+        {
+          "text": "Sixteen"
+        },
+        {
+          "text": "Seventeen"
+        },
+        {
+          "text": "Eighteen"
+        },
+        {
+          "text": "Nineteen"
+        },
+        {
+          "text": "Twenty"
+        },
+        {
+          "text": "Thirty"
+        },
+        {
+          "text": "Forty"
+        },
+        {
+          "text": "Fifty"
+        },
+        {
+          "text": "Sixty"
+        },
+        {
+          "text": "Seventy"
+        },
+        {
+          "text": "Eighty"
+        },
+        {
+          "text": "Ninety"
+        },
+        {
+          "text": "Hundred"
+        },
+        {
+          "text": "Thousand"
+        },
+        {
+          "text": "Million"
+        },
+        {
+          "text": "First"
+        },
+        {
+          "text": "Second"
+        },
+        {
+          "text": "Third"
+        },
+        {
+          "text": "Fourth"
+        },
+        {
+          "text": "Fifth"
+        },
+        {
+          "text": "Last"
+        },
+        {
+          "text": "Next"
+        },
+        {
+          "text": "Half"
+        },
+        {
+          "text": "Quarter"
+        },
+        {
+          "text": "Double"
+        },
+        {
+          "text": "Triple"
+        },
+        {
+          "text": "Pair"
+        },
+        {
+          "text": "Dozen"
+        },
+        {
+          "text": "Few"
+        },
+        {
+          "text": "Several"
+        },
+        {
+          "text": "Many"
+        },
+        {
+          "text": "Some"
+        },
+        {
+          "text": "None"
+        },
+        {
+          "text": "All"
+        },
+        {
+          "text": "Most"
+        },
+        {
+          "text": "More"
+        },
+        {
+          "text": "Less"
+        },
+        {
+          "text": "Enough"
+        },
+        {
+          "text": "Too much"
+        },
+        {
+          "text": "Too little"
+        },
+        {
+          "text": "Dollar"
+        },
+        {
+          "text": "Cent"
+        },
+        {
+          "text": "Penny"
+        },
+        {
+          "text": "Nickel"
+        },
+        {
+          "text": "Dime"
+        },
+        {
+          "text": "Quarter"
+        },
+        {
+          "text": "Loonie"
+        },
+        {
+          "text": "Toonie"
+        },
+        {
+          "text": "Money"
+        },
+        {
+          "text": "Cash"
+        },
+        {
+          "text": "Change"
+        },
+        {
+          "text": "Price"
+        },
+        {
+          "text": "Cost"
+        },
+        {
+          "text": "Expensive"
+        },
+        {
+          "text": "Cheap"
+        },
+        {
+          "text": "Free"
+        },
+        {
+          "text": "Discount"
+        },
+        {
+          "text": "Sale"
+        },
+        {
+          "text": "Tax"
+        },
+        {
+          "text": "Total"
+        },
+        {
+          "text": "Receipt"
+        },
+        {
+          "text": "Credit card"
+        },
+        {
+          "text": "Debit card"
+        },
+        {
+          "text": "Bill"
+        },
+        {
+          "text": "Pay"
+        },
+        {
+          "text": "Owe"
+        },
+        {
+          "text": "Save"
+        },
+        {
+          "text": "Spend"
+        },
+        {
+          "text": "Budget"
+        },
+        {
+          "text": "Bank"
+        },
+        {
+          "text": "Account"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "icon": "cloud-sun",
+      "words": [
+        {
+          "text": "Weather"
+        },
+        {
+          "text": "Sunny"
+        },
+        {
+          "text": "Cloudy"
+        },
+        {
+          "text": "Partly cloudy"
+        },
+        {
+          "text": "Clear"
+        },
+        {
+          "text": "Rainy"
+        },
+        {
+          "text": "Rain"
+        },
+        {
+          "text": "Drizzle"
+        },
+        {
+          "text": "Shower"
+        },
+        {
+          "text": "Storm"
+        },
+        {
+          "text": "Thunderstorm"
+        },
+        {
+          "text": "Thunder"
+        },
+        {
+          "text": "Lightning"
+        },
+        {
+          "text": "Snow"
+        },
+        {
+          "text": "Snowy"
+        },
+        {
+          "text": "Sleet"
+        },
+        {
+          "text": "Freezing rain"
+        },
+        {
+          "text": "Ice"
+        },
+        {
+          "text": "Icy"
+        },
+        {
+          "text": "Frost"
+        },
+        {
+          "text": "Hail"
+        },
+        {
+          "text": "Fog"
+        },
+        {
+          "text": "Foggy"
+        },
+        {
+          "text": "Mist"
+        },
+        {
+          "text": "Wind"
+        },
+        {
+          "text": "Windy"
+        },
+        {
+          "text": "Breezy"
+        },
+        {
+          "text": "Humid"
+        },
+        {
+          "text": "Humidity"
+        },
+        {
+          "text": "Dry"
+        },
+        {
+          "text": "Hot"
+        },
+        {
+          "text": "Warm"
+        },
+        {
+          "text": "Cool"
+        },
+        {
+          "text": "Cold"
+        },
+        {
+          "text": "Freezing"
+        },
+        {
+          "text": "Temperature"
+        },
+        {
+          "text": "Degrees"
+        },
+        {
+          "text": "Celsius"
+        },
+        {
+          "text": "Below zero"
+        },
+        {
+          "text": "Forecast"
+        },
+        {
+          "text": "Umbrella"
+        },
+        {
+          "text": "Raincoat"
+        },
+        {
+          "text": "Boots"
+        },
+        {
+          "text": "Sunglasses"
+        },
+        {
+          "text": "Sunscreen"
+        },
+        {
+          "text": "Hat"
+        },
+        {
+          "text": "Gloves"
+        },
+        {
+          "text": "Scarf"
+        },
+        {
+          "text": "Jacket"
+        },
+        {
+          "text": "Coat"
+        },
+        {
+          "text": "Mittens"
+        },
+        {
+          "text": "Shovel"
+        },
+        {
+          "text": "Salt"
+        },
+        {
+          "text": "Windchill"
+        },
+        {
+          "text": "Heat wave"
+        },
+        {
+          "text": "Cold snap"
+        }
+      ]
+    },
+    {
+      "id": "colours",
+      "name": "Colours & Descriptions",
+      "icon": "palette",
+      "words": [
+        {
+          "text": "Red"
+        },
+        {
+          "text": "Blue"
+        },
+        {
+          "text": "Green"
+        },
+        {
+          "text": "Yellow"
+        },
+        {
+          "text": "Orange"
+        },
+        {
+          "text": "Purple"
+        },
+        {
+          "text": "Pink"
+        },
+        {
+          "text": "Brown"
+        },
+        {
+          "text": "Black"
+        },
+        {
+          "text": "White"
+        },
+        {
+          "text": "Grey"
+        },
+        {
+          "text": "Beige"
+        },
+        {
+          "text": "Tan"
+        },
+        {
+          "text": "Gold"
+        },
+        {
+          "text": "Silver"
+        },
+        {
+          "text": "Navy"
+        },
+        {
+          "text": "Light"
+        },
+        {
+          "text": "Dark"
+        },
+        {
+          "text": "Bright"
+        },
+        {
+          "text": "Big"
+        },
+        {
+          "text": "Large"
+        },
+        {
+          "text": "Small"
+        },
+        {
+          "text": "Little"
+        },
+        {
+          "text": "Medium"
+        },
+        {
+          "text": "Huge"
+        },
+        {
+          "text": "Tiny"
+        },
+        {
+          "text": "Long"
+        },
+        {
+          "text": "Short"
+        },
+        {
+          "text": "Wide"
+        },
+        {
+          "text": "Narrow"
+        },
+        {
+          "text": "Tall"
+        },
+        {
+          "text": "Thick"
+        },
+        {
+          "text": "Thin"
+        },
+        {
+          "text": "Deep"
+        },
+        {
+          "text": "Shallow"
+        },
+        {
+          "text": "Good"
+        },
+        {
+          "text": "Bad"
+        },
+        {
+          "text": "New"
+        },
+        {
+          "text": "Old"
+        },
+        {
+          "text": "Clean"
+        },
+        {
+          "text": "Dirty"
+        },
+        {
+          "text": "Hot"
+        },
+        {
+          "text": "Cold"
+        },
+        {
+          "text": "Warm"
+        },
+        {
+          "text": "Cool"
+        },
+        {
+          "text": "Wet"
+        },
+        {
+          "text": "Dry"
+        },
+        {
+          "text": "Hard"
+        },
+        {
+          "text": "Soft"
+        },
+        {
+          "text": "Heavy"
+        },
+        {
+          "text": "Light"
+        },
+        {
+          "text": "Full"
+        },
+        {
+          "text": "Empty"
+        },
+        {
+          "text": "Open"
+        },
+        {
+          "text": "Closed"
+        },
+        {
+          "text": "Fast"
+        },
+        {
+          "text": "Slow"
+        },
+        {
+          "text": "Loud"
+        },
+        {
+          "text": "Quiet"
+        },
+        {
+          "text": "Rough"
+        },
+        {
+          "text": "Smooth"
+        },
+        {
+          "text": "Strong"
+        },
+        {
+          "text": "Weak"
+        },
+        {
+          "text": "Easy"
+        },
+        {
+          "text": "Difficult"
+        },
+        {
+          "text": "Safe"
+        },
+        {
+          "text": "Dangerous"
+        },
+        {
+          "text": "Broken"
+        },
+        {
+          "text": "Fixed"
+        },
+        {
+          "text": "Working"
+        },
+        {
+          "text": "Same"
+        },
+        {
+          "text": "Different"
+        },
+        {
+          "text": "Similar"
+        },
+        {
+          "text": "Better"
+        },
+        {
+          "text": "Worse"
+        },
+        {
+          "text": "Best"
+        },
+        {
+          "text": "Worst"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "name": "Work & Office",
+      "icon": "briefcase",
+      "words": [
+        {
+          "text": "Work"
+        },
+        {
+          "text": "Job"
+        },
+        {
+          "text": "Office"
+        },
+        {
+          "text": "Company"
+        },
+        {
+          "text": "Business"
+        },
+        {
+          "text": "Boss"
+        },
+        {
+          "text": "Manager"
+        },
+        {
+          "text": "Employee"
+        },
+        {
+          "text": "Coworker"
+        },
+        {
+          "text": "Staff"
+        },
+        {
+          "text": "Team"
+        },
+        {
+          "text": "Meeting"
+        },
+        {
+          "text": "Conference"
+        },
+        {
+          "text": "Presentation"
+        },
+        {
+          "text": "Project"
+        },
+        {
+          "text": "Deadline"
+        },
+        {
+          "text": "Report"
+        },
+        {
+          "text": "Email"
+        },
+        {
+          "text": "Phone call"
+        },
+        {
+          "text": "Message"
+        },
+        {
+          "text": "Computer"
+        },
+        {
+          "text": "Laptop"
+        },
+        {
+          "text": "Printer"
+        },
+        {
+          "text": "Desk"
+        },
+        {
+          "text": "Chair"
+        },
+        {
+          "text": "File"
+        },
+        {
+          "text": "Folder"
+        },
+        {
+          "text": "Document"
+        },
+        {
+          "text": "Copy"
+        },
+        {
+          "text": "Print"
+        },
+        {
+          "text": "Fax"
+        },
+        {
+          "text": "Scan"
+        },
+        {
+          "text": "Schedule"
+        },
+        {
+          "text": "Calendar"
+        },
+        {
+          "text": "Appointment"
+        },
+        {
+          "text": "Break"
+        },
+        {
+          "text": "Lunch"
+        },
+        {
+          "text": "Vacation"
+        },
+        {
+          "text": "Sick day"
+        },
+        {
+          "text": "Day off"
+        },
+        {
+          "text": "Overtime"
+        },
+        {
+          "text": "Part-time"
+        },
+        {
+          "text": "Full-time"
+        },
+        {
+          "text": "Retire"
+        },
+        {
+          "text": "Retired"
+        },
+        {
+          "text": "Salary"
+        },
+        {
+          "text": "Paycheque"
+        },
+        {
+          "text": "Benefits"
+        },
+        {
+          "text": "Pension"
+        },
+        {
+          "text": "Training"
+        },
+        {
+          "text": "Interview"
+        },
+        {
+          "text": "Hire"
+        },
+        {
+          "text": "Promote"
+        },
+        {
+          "text": "Transfer"
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "School & Education",
+      "icon": "graduation-cap",
+      "words": [
+        {
+          "text": "School"
+        },
+        {
+          "text": "College"
+        },
+        {
+          "text": "University"
+        },
+        {
+          "text": "Class"
+        },
+        {
+          "text": "Classroom"
+        },
+        {
+          "text": "Teacher"
+        },
+        {
+          "text": "Professor"
+        },
+        {
+          "text": "Student"
+        },
+        {
+          "text": "Principal"
+        },
+        {
+          "text": "Homework"
+        },
+        {
+          "text": "Assignment"
+        },
+        {
+          "text": "Test"
+        },
+        {
+          "text": "Exam"
+        },
+        {
+          "text": "Quiz"
+        },
+        {
+          "text": "Grade"
+        },
+        {
+          "text": "Report card"
+        },
+        {
+          "text": "Graduation"
+        },
+        {
+          "text": "Diploma"
+        },
+        {
+          "text": "Degree"
+        },
+        {
+          "text": "Subject"
+        },
+        {
+          "text": "Math"
+        },
+        {
+          "text": "Science"
+        },
+        {
+          "text": "History"
+        },
+        {
+          "text": "English"
+        },
+        {
+          "text": "French"
+        },
+        {
+          "text": "Art"
+        },
+        {
+          "text": "Music"
+        },
+        {
+          "text": "Gym"
+        },
+        {
+          "text": "Recess"
+        },
+        {
+          "text": "Lunch"
+        },
+        {
+          "text": "Library"
+        },
+        {
+          "text": "Book"
+        },
+        {
+          "text": "Textbook"
+        },
+        {
+          "text": "Notebook"
+        },
+        {
+          "text": "Pen"
+        },
+        {
+          "text": "Pencil"
+        },
+        {
+          "text": "Eraser"
+        },
+        {
+          "text": "Paper"
+        },
+        {
+          "text": "Backpack"
+        },
+        {
+          "text": "Locker"
+        },
+        {
+          "text": "Bus"
+        },
+        {
+          "text": "Field trip"
+        },
+        {
+          "text": "Learn"
+        },
+        {
+          "text": "Study"
+        },
+        {
+          "text": "Read"
+        },
+        {
+          "text": "Write"
+        },
+        {
+          "text": "Practice"
+        },
+        {
+          "text": "Remember"
+        },
+        {
+          "text": "Understand"
+        },
+        {
+          "text": "Question"
+        },
+        {
+          "text": "Answer"
+        }
+      ]
+    },
+    {
+      "id": "hobbies",
+      "name": "Hobbies & Activities",
+      "icon": "puzzle-piece",
+      "words": [
+        {
+          "text": "Hobby",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Read",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Reading",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Writing",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Garden",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Gardening",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Plants",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Flowers",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Cook",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Cooking",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Bake",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Baking",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Knit",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Knitting",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Sew",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Sewing",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Craft",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Crafts",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Paint",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Painting",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Draw",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Drawing",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Art",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Photography",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Camera",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Photo",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Picture",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Puzzle",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Puzzles",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Crossword",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Crosswords",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Sudoku",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Cards",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Board game",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Board games",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Video game",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Game",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Play",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Computer",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Internet",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Phone",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Tablet",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Walking",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Swimming",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Yoga",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Golf",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Fish",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Fishing",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Camping",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Hike",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Travel",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Trip",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Vacation",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Visit",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Party",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Celebrate",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Relax",
+          "usage": "Common hobbies"
+        },
+        {
+          "text": "Movie",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Film",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Watch TV",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "TV show",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Show",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Series",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Documentary",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Comedy",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Drama",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "News",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Sports",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Music",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Song",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Listen",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Dance",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Sing",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Concert",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Radio",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Podcast",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Book",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Novel",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Magazine",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Newspaper",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Library",
+          "usage": "Entertainment"
+        },
+        {
+          "text": "Walk",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Go for a walk",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Exercise",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Workout",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Stretch",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Swim",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Bike",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Jog",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Run",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Gym",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Fitness class",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Spinning",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Cardio-dance",
+          "usage": "Exercise"
+        },
+        {
+          "text": "Hockey",
+          "usage": "Sports"
+        },
+        {
+          "text": "Baseball",
+          "usage": "Sports"
+        },
+        {
+          "text": "Basketball",
+          "usage": "Sports"
+        },
+        {
+          "text": "Football",
+          "usage": "Sports"
+        },
+        {
+          "text": "Soccer",
+          "usage": "Sports"
+        },
+        {
+          "text": "Tennis",
+          "usage": "Sports"
+        },
+        {
+          "text": "Skating",
+          "usage": "Sports"
+        },
+        {
+          "text": "Skiing",
+          "usage": "Sports"
+        },
+        {
+          "text": "Curling",
+          "usage": "Sports"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "icon": "smartphone",
+      "words": [
+        {
+          "text": "phone",
+          "usage": "Phone"
+        },
+        {
+          "text": "cell phone",
+          "usage": "Phone"
+        },
+        {
+          "text": "mobile",
+          "usage": "Phone"
+        },
+        {
+          "text": "smartphone",
+          "usage": "Phone"
+        },
+        {
+          "text": "landline",
+          "usage": "Phone"
+        },
+        {
+          "text": "charger",
+          "usage": "Phone"
+        },
+        {
+          "text": "battery",
+          "usage": "Phone"
+        },
+        {
+          "text": "screen",
+          "usage": "Phone"
+        },
+        {
+          "text": "voicemail",
+          "usage": "Phone"
+        },
+        {
+          "text": "text",
+          "usage": "Phone"
+        },
+        {
+          "text": "call",
+          "usage": "Phone"
+        },
+        {
+          "text": "answer",
+          "usage": "Phone"
+        },
+        {
+          "text": "hang up",
+          "usage": "Phone"
+        },
+        {
+          "text": "dial",
+          "usage": "Phone"
+        },
+        {
+          "text": "ring",
+          "usage": "Phone"
+        },
+        {
+          "text": "Make a call",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Answer the phone",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Hang up",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Send a text",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Check voicemail",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Charge the phone",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Turn on",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Turn off",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Volume up",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Volume down",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "Mute",
+          "usage": "Phone actions"
+        },
+        {
+          "text": "computer",
+          "usage": "Computer"
+        },
+        {
+          "text": "laptop",
+          "usage": "Computer"
+        },
+        {
+          "text": "desktop",
+          "usage": "Computer"
+        },
+        {
+          "text": "tablet",
+          "usage": "Computer"
+        },
+        {
+          "text": "monitor",
+          "usage": "Computer"
+        },
+        {
+          "text": "keyboard",
+          "usage": "Computer"
+        },
+        {
+          "text": "mouse",
+          "usage": "Computer"
+        },
+        {
+          "text": "printer",
+          "usage": "Computer"
+        },
+        {
+          "text": "internet",
+          "usage": "Computer"
+        },
+        {
+          "text": "Wi-Fi",
+          "usage": "Computer"
+        },
+        {
+          "text": "website",
+          "usage": "Computer"
+        },
+        {
+          "text": "email",
+          "usage": "Computer"
+        },
+        {
+          "text": "browser",
+          "usage": "Computer"
+        },
+        {
+          "text": "search",
+          "usage": "Computer"
+        },
+        {
+          "text": "Google",
+          "usage": "Computer"
+        },
+        {
+          "text": "password",
+          "usage": "Computer"
+        },
+        {
+          "text": "login",
+          "usage": "Computer"
+        },
+        {
+          "text": "logout",
+          "usage": "Computer"
+        },
+        {
+          "text": "Restart",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Open",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Close",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Save",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Print",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Copy",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Paste",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Delete",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Search",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Type",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Click",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "Scroll",
+          "usage": "Computer actions"
+        },
+        {
+          "text": "television",
+          "usage": "Television"
+        },
+        {
+          "text": "TV",
+          "usage": "Television"
+        },
+        {
+          "text": "remote control",
+          "usage": "Television"
+        },
+        {
+          "text": "cable",
+          "usage": "Television"
+        },
+        {
+          "text": "streaming",
+          "usage": "Television"
+        },
+        {
+          "text": "Netflix",
+          "usage": "Television"
+        },
+        {
+          "text": "channel",
+          "usage": "Television"
+        },
+        {
+          "text": "CBC",
+          "usage": "Television"
+        },
+        {
+          "text": "CTV",
+          "usage": "Television"
+        },
+        {
+          "text": "Global",
+          "usage": "Television"
+        },
+        {
+          "text": "CP24",
+          "usage": "Television"
+        },
+        {
+          "text": "TSN",
+          "usage": "Television"
+        },
+        {
+          "text": "Sportsnet",
+          "usage": "Television"
+        },
+        {
+          "text": "Change channel",
+          "usage": "TV actions"
+        },
+        {
+          "text": "Pause",
+          "usage": "TV actions"
+        },
+        {
+          "text": "Play",
+          "usage": "TV actions"
+        },
+        {
+          "text": "Rewind",
+          "usage": "TV actions"
+        },
+        {
+          "text": "Fast forward",
+          "usage": "TV actions"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "name": "Action Words (Verbs)",
+      "icon": "zap",
+      "words": [
+        {
+          "text": "wake up",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "get up",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "stretch",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "shower",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "bathe",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "wash",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "brush teeth",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "brush hair",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "comb hair",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "get dressed",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "put on",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "eat breakfast",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "drink",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "take medication",
+          "usage": "Morning routine"
+        },
+        {
+          "text": "eat",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "taste",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "chew",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "swallow",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "bite",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "sip",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "cook",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "prepare",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "make",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "serve",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "cut",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "slice",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "pour",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "stir",
+          "usage": "Eating and drinking"
+        },
+        {
+          "text": "clean",
+          "usage": "Household actions"
+        },
+        {
+          "text": "dry",
+          "usage": "Household actions"
+        },
+        {
+          "text": "fold",
+          "usage": "Household actions"
+        },
+        {
+          "text": "iron",
+          "usage": "Household actions"
+        },
+        {
+          "text": "vacuum",
+          "usage": "Household actions"
+        },
+        {
+          "text": "sweep",
+          "usage": "Household actions"
+        },
+        {
+          "text": "dust",
+          "usage": "Household actions"
+        },
+        {
+          "text": "mop",
+          "usage": "Household actions"
+        },
+        {
+          "text": "organize",
+          "usage": "Household actions"
+        },
+        {
+          "text": "tidy",
+          "usage": "Household actions"
+        },
+        {
+          "text": "put away",
+          "usage": "Household actions"
+        },
+        {
+          "text": "brush",
+          "usage": "Personal care"
+        },
+        {
+          "text": "comb",
+          "usage": "Personal care"
+        },
+        {
+          "text": "apply",
+          "usage": "Personal care"
+        },
+        {
+          "text": "take off",
+          "usage": "Personal care"
+        },
+        {
+          "text": "shave",
+          "usage": "Personal care"
+        },
+        {
+          "text": "moisturize",
+          "usage": "Personal care"
+        },
+        {
+          "text": "go",
+          "usage": "Movement"
+        },
+        {
+          "text": "come",
+          "usage": "Movement"
+        },
+        {
+          "text": "move",
+          "usage": "Movement"
+        },
+        {
+          "text": "walk",
+          "usage": "Movement"
+        },
+        {
+          "text": "run",
+          "usage": "Movement"
+        },
+        {
+          "text": "jog",
+          "usage": "Movement"
+        },
+        {
+          "text": "stand",
+          "usage": "Movement"
+        },
+        {
+          "text": "sit",
+          "usage": "Movement"
+        },
+        {
+          "text": "lie",
+          "usage": "Movement"
+        },
+        {
+          "text": "sit down",
+          "usage": "Movement"
+        },
+        {
+          "text": "stand up",
+          "usage": "Movement"
+        },
+        {
+          "text": "turn around",
+          "usage": "Movement"
+        },
+        {
+          "text": "go up",
+          "usage": "Movement"
+        },
+        {
+          "text": "go down",
+          "usage": "Movement"
+        },
+        {
+          "text": "go in",
+          "usage": "Movement"
+        },
+        {
+          "text": "go out",
+          "usage": "Movement"
+        },
+        {
+          "text": "arrive",
+          "usage": "Movement"
+        },
+        {
+          "text": "leave",
+          "usage": "Movement"
+        },
+        {
+          "text": "enter",
+          "usage": "Movement"
+        },
+        {
+          "text": "reach",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "grab",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "hold",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "pick up",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "put down",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "carry",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "push",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "pull",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "lift",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "drop",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "throw",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "catch",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "open",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "close",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "touch",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "point",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "wave",
+          "usage": "Hand actions"
+        },
+        {
+          "text": "say",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "tell",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "ask",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "speak",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "talk",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "listen",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "hear",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "read",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "write",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "explain",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "describe",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "show",
+          "usage": "Communication verbs"
+        },
+        {
+          "text": "hurry",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "rush",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "wait",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "start",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "continue",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "finish",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "rest",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "relax",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "sleep",
+          "usage": "Speed and timing"
+        },
+        {
+          "text": "nap",
+          "usage": "Speed and timing"
+        }
+      ]
+    },
+    {
+      "id": "descriptions",
+      "name": "Descriptive Words",
+      "icon": "type",
+      "words": [
+        {
+          "text": "big",
+          "usage": "Size"
+        },
+        {
+          "text": "small",
+          "usage": "Size"
+        },
+        {
+          "text": "large",
+          "usage": "Size"
+        },
+        {
+          "text": "little",
+          "usage": "Size"
+        },
+        {
+          "text": "tiny",
+          "usage": "Size"
+        },
+        {
+          "text": "huge",
+          "usage": "Size"
+        },
+        {
+          "text": "enormous",
+          "usage": "Size"
+        },
+        {
+          "text": "medium",
+          "usage": "Size"
+        },
+        {
+          "text": "average",
+          "usage": "Size"
+        },
+        {
+          "text": "long",
+          "usage": "Size"
+        },
+        {
+          "text": "short",
+          "usage": "Size"
+        },
+        {
+          "text": "tall",
+          "usage": "Size"
+        },
+        {
+          "text": "wide",
+          "usage": "Size"
+        },
+        {
+          "text": "narrow",
+          "usage": "Size"
+        },
+        {
+          "text": "thick",
+          "usage": "Size"
+        },
+        {
+          "text": "thin",
+          "usage": "Size"
+        },
+        {
+          "text": "deep",
+          "usage": "Size"
+        },
+        {
+          "text": "shallow",
+          "usage": "Size"
+        },
+        {
+          "text": "round",
+          "usage": "Shape"
+        },
+        {
+          "text": "square",
+          "usage": "Shape"
+        },
+        {
+          "text": "rectangular",
+          "usage": "Shape"
+        },
+        {
+          "text": "oval",
+          "usage": "Shape"
+        },
+        {
+          "text": "flat",
+          "usage": "Shape"
+        },
+        {
+          "text": "curved",
+          "usage": "Shape"
+        },
+        {
+          "text": "pointed",
+          "usage": "Shape"
+        },
+        {
+          "text": "sharp",
+          "usage": "Shape"
+        },
+        {
+          "text": "red",
+          "usage": "Colours"
+        },
+        {
+          "text": "orange",
+          "usage": "Colours"
+        },
+        {
+          "text": "yellow",
+          "usage": "Colours"
+        },
+        {
+          "text": "green",
+          "usage": "Colours"
+        },
+        {
+          "text": "blue",
+          "usage": "Colours"
+        },
+        {
+          "text": "purple",
+          "usage": "Colours"
+        },
+        {
+          "text": "pink",
+          "usage": "Colours"
+        },
+        {
+          "text": "brown",
+          "usage": "Colours"
+        },
+        {
+          "text": "black",
+          "usage": "Colours"
+        },
+        {
+          "text": "white",
+          "usage": "Colours"
+        },
+        {
+          "text": "grey",
+          "usage": "Colours"
+        },
+        {
+          "text": "beige",
+          "usage": "Colours"
+        },
+        {
+          "text": "navy",
+          "usage": "Colours"
+        },
+        {
+          "text": "turquoise",
+          "usage": "Colours"
+        },
+        {
+          "text": "gold",
+          "usage": "Colours"
+        },
+        {
+          "text": "silver",
+          "usage": "Colours"
+        },
+        {
+          "text": "light",
+          "usage": "Colours"
+        },
+        {
+          "text": "dark",
+          "usage": "Colours"
+        },
+        {
+          "text": "bright",
+          "usage": "Colours"
+        },
+        {
+          "text": "pale",
+          "usage": "Colours"
+        },
+        {
+          "text": "soft",
+          "usage": "Textures"
+        },
+        {
+          "text": "hard",
+          "usage": "Textures"
+        },
+        {
+          "text": "smooth",
+          "usage": "Textures"
+        },
+        {
+          "text": "rough",
+          "usage": "Textures"
+        },
+        {
+          "text": "bumpy",
+          "usage": "Textures"
+        },
+        {
+          "text": "fuzzy",
+          "usage": "Textures"
+        },
+        {
+          "text": "fluffy",
+          "usage": "Textures"
+        },
+        {
+          "text": "silky",
+          "usage": "Textures"
+        },
+        {
+          "text": "scratchy",
+          "usage": "Textures"
+        },
+        {
+          "text": "sticky",
+          "usage": "Textures"
+        },
+        {
+          "text": "slippery",
+          "usage": "Textures"
+        },
+        {
+          "text": "wet",
+          "usage": "Textures"
+        },
+        {
+          "text": "wood",
+          "usage": "Materials"
+        },
+        {
+          "text": "metal",
+          "usage": "Materials"
+        },
+        {
+          "text": "plastic",
+          "usage": "Materials"
+        },
+        {
+          "text": "glass",
+          "usage": "Materials"
+        },
+        {
+          "text": "fabric",
+          "usage": "Materials"
+        },
+        {
+          "text": "leather",
+          "usage": "Materials"
+        },
+        {
+          "text": "rubber",
+          "usage": "Materials"
+        },
+        {
+          "text": "paper",
+          "usage": "Materials"
+        },
+        {
+          "text": "cardboard",
+          "usage": "Materials"
+        },
+        {
+          "text": "ceramic",
+          "usage": "Materials"
+        },
+        {
+          "text": "stone",
+          "usage": "Materials"
+        },
+        {
+          "text": "good",
+          "usage": "Positive words"
+        },
+        {
+          "text": "great",
+          "usage": "Positive words"
+        },
+        {
+          "text": "excellent",
+          "usage": "Positive words"
+        },
+        {
+          "text": "wonderful",
+          "usage": "Positive words"
+        },
+        {
+          "text": "beautiful",
+          "usage": "Positive words"
+        },
+        {
+          "text": "lovely",
+          "usage": "Positive words"
+        },
+        {
+          "text": "perfect",
+          "usage": "Positive words"
+        },
+        {
+          "text": "amazing",
+          "usage": "Positive words"
+        },
+        {
+          "text": "fantastic",
+          "usage": "Positive words"
+        },
+        {
+          "text": "delicious",
+          "usage": "Positive words"
+        },
+        {
+          "text": "comfortable",
+          "usage": "Positive words"
+        },
+        {
+          "text": "new",
+          "usage": "Positive words"
+        },
+        {
+          "text": "bad",
+          "usage": "Negative words"
+        },
+        {
+          "text": "terrible",
+          "usage": "Negative words"
+        },
+        {
+          "text": "awful",
+          "usage": "Negative words"
+        },
+        {
+          "text": "ugly",
+          "usage": "Negative words"
+        },
+        {
+          "text": "dirty",
+          "usage": "Negative words"
+        },
+        {
+          "text": "broken",
+          "usage": "Negative words"
+        },
+        {
+          "text": "worn",
+          "usage": "Negative words"
+        },
+        {
+          "text": "damaged",
+          "usage": "Negative words"
+        },
+        {
+          "text": "uncomfortable",
+          "usage": "Negative words"
+        },
+        {
+          "text": "okay",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "fine",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "all right",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "so-so",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "normal",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "regular",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "usual",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "different",
+          "usage": "Neutral words"
+        },
+        {
+          "text": "same",
+          "usage": "Neutral words"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "icon": "shopping-cart",
+      "words": [
+        {
+          "text": "Store"
+        },
+        {
+          "text": "Shop"
+        },
+        {
+          "text": "Mall"
+        },
+        {
+          "text": "Grocery store"
+        },
+        {
+          "text": "Supermarket"
+        },
+        {
+          "text": "Pharmacy"
+        },
+        {
+          "text": "Department store"
+        },
+        {
+          "text": "Hardware store"
+        },
+        {
+          "text": "Clothing store"
+        },
+        {
+          "text": "Shoe store"
+        },
+        {
+          "text": "Bookstore"
+        },
+        {
+          "text": "Gift shop"
+        },
+        {
+          "text": "Buy"
+        },
+        {
+          "text": "Sell"
+        },
+        {
+          "text": "Return"
+        },
+        {
+          "text": "Exchange"
+        },
+        {
+          "text": "Refund"
+        },
+        {
+          "text": "Order"
+        },
+        {
+          "text": "Delivery"
+        },
+        {
+          "text": "Pickup"
+        },
+        {
+          "text": "Online"
+        },
+        {
+          "text": "Cart"
+        },
+        {
+          "text": "Basket"
+        },
+        {
+          "text": "Aisle"
+        },
+        {
+          "text": "Shelf"
+        },
+        {
+          "text": "Checkout"
+        },
+        {
+          "text": "Cashier"
+        },
+        {
+          "text": "Self-checkout"
+        },
+        {
+          "text": "Line"
+        },
+        {
+          "text": "Bag"
+        },
+        {
+          "text": "Receipt"
+        },
+        {
+          "text": "Coupon"
+        },
+        {
+          "text": "Sale"
+        },
+        {
+          "text": "Clearance"
+        },
+        {
+          "text": "Deal"
+        },
+        {
+          "text": "In stock"
+        },
+        {
+          "text": "Out of stock"
+        },
+        {
+          "text": "Size"
+        },
+        {
+          "text": "Small"
+        },
+        {
+          "text": "Medium"
+        },
+        {
+          "text": "Large"
+        },
+        {
+          "text": "Extra large"
+        },
+        {
+          "text": "Colour"
+        },
+        {
+          "text": "Fit"
+        },
+        {
+          "text": "Price tag"
+        },
+        {
+          "text": "Brand"
+        },
+        {
+          "text": "Quality"
+        },
+        {
+          "text": "Warranty"
+        },
+        {
+          "text": "Gift card"
+        },
+        {
+          "text": "Membership"
+        },
+        {
+          "text": "Customer service"
+        },
+        {
+          "text": "Try on"
+        },
+        {
+          "text": "Fitting room"
+        },
+        {
+          "text": "List"
+        }
+      ]
+    },
+    {
+      "id": "shopping-list",
+      "name": "Shopping List",
+      "icon": "list-checks",
+      "words": [
+        {
+          "text": "I need...",
+          "usage": "Communication phrase"
+        },
+        {
+          "text": "We need...",
+          "usage": "Communication phrase"
+        },
+        {
+          "text": "Do you have...?",
+          "usage": "Staff question"
+        },
+        {
+          "text": "Where is the...?",
+          "usage": "Staff question"
+        },
+        {
+          "text": "Can you help me find...?",
+          "usage": "Staff question"
+        },
+        {
+          "text": "I'm looking for...",
+          "usage": "Staff question"
+        },
+        {
+          "text": "Is this on sale?",
+          "usage": "Staff question"
+        },
+        {
+          "text": "How much is this?",
+          "usage": "Staff question"
+        },
+        {
+          "text": "Got it",
+          "usage": "Communication phrase"
+        },
+        {
+          "text": "Skip this time",
+          "usage": "Communication phrase"
+        },
+        {
+          "text": "Produce section",
+          "usage": "Store location"
+        },
+        {
+          "text": "Dairy section",
+          "usage": "Store location"
+        },
+        {
+          "text": "Bakery",
+          "usage": "Store location"
+        },
+        {
+          "text": "Frozen section",
+          "usage": "Store location"
+        },
+        {
+          "text": "Canned goods aisle",
+          "usage": "Store location"
+        },
+        {
+          "text": "Cereal aisle",
+          "usage": "Store location"
+        },
+        {
+          "text": "Beverage aisle",
+          "usage": "Store location"
+        },
+        {
+          "text": "Cleaning supplies",
+          "usage": "Store location"
+        },
+        {
+          "text": "Personal care aisle",
+          "usage": "Store location"
+        },
+        {
+          "text": "Apples",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Bananas",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Oranges",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Grapes",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Berries",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Blueberries",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Strawberries",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Raspberries",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Lemons",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Limes",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Pears",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Peaches",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Plums",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Cherries",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Mango",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Pineapple",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Papaya",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Pomegranate",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Kiwi",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Figs",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Grapefruit",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Watermelon",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Cantaloupe",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Blackberries",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Apricots",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Persimmon",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Guava",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Dragon fruit",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Passion fruit",
+          "usage": "Fruit"
+        },
+        {
+          "text": "Kale",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Swiss chard",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Spinach",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Arugula",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Collard greens",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Romaine lettuce",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Mixed greens",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Watercress",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Mustard greens",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Endive",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Radicchio",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Microgreens",
+          "usage": "Leafy Greens"
+        },
+        {
+          "text": "Broccoli",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Cauliflower",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Brussels sprouts",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Cabbage",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Bok choy",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Carrots",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Celery",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Beets",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Sweet potatoes",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Squash",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Zucchini",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Eggplant",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Tomatoes",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Peppers",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Cucumbers",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Onions",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Garlic",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Ginger",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Mushrooms",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Asparagus",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Green beans",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Snap peas",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Avocado",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Artichokes",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Leeks",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Fennel",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Radishes",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Turnips",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Parsnips",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Jicama",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Kohlrabi",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Rutabaga",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Daikon",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Celeriac",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Butternut squash",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Acorn squash",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Spaghetti squash",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Okra",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Edamame",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Chard",
+          "usage": "Vegetables"
+        },
+        {
+          "text": "Milk",
+          "usage": "Dairy & Protein"
+        },
+        {
+          "text": "Yogurt",
+          "usage": "Dairy & Protein"
+        },
+        {
+          "text": "Cheese",
+          "usage": "Dairy & Protein"
+        },
+        {
+          "text": "Eggs",
+          "usage": "Dairy & Protein"
+        },
+        {
+          "text": "Fish",
+          "usage": "Dairy & Protein"
+        },
+        {
+          "text": "Meat",
+          "usage": "Dairy & Protein"
+        },
+        {
+          "text": "Bread",
+          "usage": "Bakery"
+        },
+        {
+          "text": "Bagels",
+          "usage": "Bakery"
+        },
+        {
+          "text": "Rolls",
+          "usage": "Bakery"
+        },
+        {
+          "text": "Frozen vegetables",
+          "usage": "Frozen"
+        },
+        {
+          "text": "Frozen fruit",
+          "usage": "Frozen"
+        },
+        {
+          "text": "Rice",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Pasta",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Tortilla",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Quinoa",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Oatmeal",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Lentils",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Chickpeas",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Black beans",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Nuts",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Seeds",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Olive oil",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Coconut oil",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Honey",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Turmeric",
+          "usage": "Pantry"
+        },
+        {
+          "text": "Coffee",
+          "usage": "Beverages"
+        },
+        {
+          "text": "Tea",
+          "usage": "Beverages"
+        },
+        {
+          "text": "Green tea",
+          "usage": "Beverages"
+        },
+        {
+          "text": "Juice",
+          "usage": "Beverages"
+        },
+        {
+          "text": "Water",
+          "usage": "Beverages"
+        },
+        {
+          "text": "Paper towels",
+          "usage": "Household"
+        },
+        {
+          "text": "Toilet paper",
+          "usage": "Household"
+        },
+        {
+          "text": "Dish soap",
+          "usage": "Household"
+        },
+        {
+          "text": "Laundry detergent",
+          "usage": "Household"
+        },
+        {
+          "text": "Garbage bags",
+          "usage": "Household"
+        },
+        {
+          "text": "Shampoo",
+          "usage": "Personal care"
+        },
+        {
+          "text": "Toothpaste",
+          "usage": "Personal care"
+        },
+        {
+          "text": "Soap",
+          "usage": "Personal care"
+        }
+      ]
+    }
+  ]
+}

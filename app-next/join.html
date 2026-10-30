@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Join My Words Beta</title>
+  <link rel="stylesheet" href="/css/trial.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/app/my-words.svg">
+</head>
+<body data-beta-page="join">
+  <header><nav aria-label="Main navigation"><a href="/">Home</a></nav></header>
+  <main>
+    <h1>My Words Beta</h1>
+    <h2 id="join-heading">Create your account</h2>
+    <p id="join-introduction">Your own words, notes and notebooks.</p>
+    <p>Development beta. Words are saved on your device and our server. AI tools send request details and relevant earlier words to external services. <a href="/privacy.html">Privacy, development and licence</a>.</p>
+    <form id="activation-form" method="post" action="/api/register" novalidate>
+      <label for="activation-username">Username</label>
+      <input id="activation-username" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" aria-describedby="username-help" required>
+      <p id="username-help">Use your first name, like Alice.</p>
+      <label for="activation-password">New password</label>
+      <input id="activation-password" name="password" type="password" autocomplete="new-password" autocapitalize="none" spellcheck="false" aria-describedby="password-help" required>
+      <p id="password-help">Use a few words you can remember. Spaces are fine.</p>
+      <div id="join-confirmation" hidden>
+        <label for="activation-confirm">Confirm password</label>
+        <input id="activation-confirm" name="password-confirm" type="password" autocomplete="new-password" autocapitalize="none" spellcheck="false" disabled required>
+      </div>
+      <button id="join-password-visibility" type="button" aria-controls="activation-password activation-confirm" aria-pressed="false">Show passwords</button>
+      <button id="join-submit" type="submit" class="primary">Create account</button>
+    </form>
+    <p id="beta-error" role="alert"></p>
+    <p id="beta-status" role="status" aria-live="polite"></p>
+    <nav aria-label="Account navigation"><a id="beta-sign-in" href="/">Sign in</a></nav>
+    <p>Already have an account? Choose Sign in.</p>
+    <details><summary>About this beta</summary>
+      <p>This beta has 12 account places. Each person has their own private words, notes and notebooks.</p>
+      <p>Use your own phone, tablet or computer. Your words are saved on this device and in your account on the beta server. An offline copy stays on this device after you sign out.</p>
+      <p>Keep your username and password somewhere safe. For password help, contact the person who sent you this link.</p>
+      <p>AI tools send your topic or situation, selected clues and any added context to outside services. Asking for more Quick words also sends the words already in that group. Download a backup from Settings → Backups and recovery → Download or restore a backup.</p>
+    </details>
+    <noscript><p class="notice">Turn on JavaScript in your browser to create an account or use a password-recovery link.</p></noscript>
+  </main>
+  <script src="/js/repository.js"></script>
+  <script src="/js/beta-access.js"></script>
+</body>
+</html>

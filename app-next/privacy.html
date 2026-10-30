@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer"><title>Privacy and development — My Words</title>
+  <link rel="stylesheet" href="/css/trial.css"><link rel="icon" type="image/svg+xml" href="/assets/app/my-words.svg">
+</head>
+<body>
+  <header><nav aria-label="Main navigation"><a href="/">Home</a><button id="privacy-back" type="button">Back</button></nav></header>
+  <main>
+    <h1>Privacy and development</h1>
+    <p>My Words is a volunteer project maintained by Gillian Kerr and provided free of charge. It is still in development and will remain a small beta. This source copy includes a fictional local demonstration. Independently operated copies must supply their own account support and retention information.</p>
+    <p><strong>Your words are saved on your device and on the server. AI tools send request details and relevant earlier words to outside services. Signing out does not remove your device’s saved copy.</strong></p>
+    <nav aria-label="On this page"><a href="#your-information">Your information</a><a href="#ai">AI tools</a><a href="#development">Development and liability</a><a href="#licence">Source and licence</a><a href="#contact">Contact</a></nav>
+    <section aria-labelledby="your-information">
+      <h2 id="your-information">Your information</h2>
+      <p>The account service stores your username and a password hash, not a readable password. It also stores the content you save, such as words, notes, contacts, personal details and notebooks. Signing in uses a session cookie.</p>
+      <p>Saved content, drafts and changes waiting to sync are kept in this browser’s database. Changes are sent to your account’s server storage when the app can connect and sync with your signed-in account. The local demonstration uses memory on this computer. Independently hosted copies must identify their own hosting provider and privacy terms.</p>
+      <p>Separate beta accounts have separate workspaces protected by server access checks. People using the same username and password share that account’s content. Project operators and people with authorized hosting or database access may access server records. The app is not end-to-end encrypted.</p>
+      <p>The beta organizer can see account usernames and issue password-recovery links. Recovery changes the account password and closes its existing online sessions; an offline device copy cannot be remotely erased.</p>
+      <p>The app uses random device and sync identifiers, daily account AI-use counts and IP-based controls to support saving and limit misuse. It does not include advertising or third-party behavioural analytics scripts. Hosting providers may keep technical records. Hosting locations, infrastructure-log retention and all provider account settings have not yet been verified; do not assume information stays in Canada.</p>
+    </section>
+    <section aria-labelledby="device-copies">
+      <h2 id="device-copies">Device copies, backups and removal</h2>
+      <p>Use a device and browser profile you trust. Signing out closes this tab’s access but keeps the offline copy. Other open tabs may still show saved content until they check the session. Close all My Words tabs when you finish on a shared device. Someone who controls the same unlocked device or browser may be able to read its storage.</p>
+      <p>Downloaded backups and PDFs are not password-protected by My Words. A backup can include earlier versions, archived content, drafts and recovery information. Keep these files somewhere private.</p>
+      <p>Removing an item from a screen may leave earlier or recoverable copies. Permanent notebook deletion has its own confirmation. Exported files, other devices and service backups are separate copies.</p>
+      <p>For an independently hosted copy, ask its operator for access, correction or account closure. The original project maintainer cannot access accounts on other operators’ services. Operators should verify account ownership, offer an export and require explicit confirmation before removing accounts. Never send your password.</p>
+      <p>There is no self-service account-erasure tool or automatic expiry for saved accounts. Removing server records cannot erase downloaded files or offline copies on other devices. Hosting backups have a separate lifetime; their retention has not yet been verified. Ask your operator about remaining copies. Do not clear site data while changes are still waiting to sync.</p>
+    </section>
+    <section aria-labelledby="ai">
+      <h2 id="ai">AI tools and online lookup</h2>
+      <p>AI generation is optional. Reading your already saved words does not require an AI request.</p>
+      <p>Quick words sends your topic and selected clues through <a href="https://openrouter.ai/privacy/" rel="noreferrer noopener">OpenRouter</a> to an AI provider. Asking for more words also sends words already in that Quick words group to help avoid repetition.</p>
+      <p>Notebook generation sends the situation you describe and any added context. Confirmed online lookup also sends the selected name and, when relevant, the book title or author to AI/search services. Turning off online lookup does not make AI notebook generation local.</p>
+      <p>No whole workspace, contacts collection or personal-information collection is automatically attached to these requests. Details you type or include in a word group may still be personal. Only include information you are comfortable sending to those services.</p>
+      <p>Providers have their own processing and retention terms. This project has not verified a zero-retention or no-training guarantee for every provider/account setting. AI results can be wrong; check generated content before relying on it.</p>
+    </section>
+    <section aria-labelledby="development">
+      <h2 id="development">Development and liability</h2>
+      <p>My Words is experimental software. It may contain errors, become unavailable or lose saved work. Keep exported backups and another way to communicate.</p>
+      <p>To the extent permitted by applicable law, My Words is provided “as is”, without warranty, and the developer disclaims liability for losses arising from its use. This does not exclude rights or responsibilities that cannot legally be excluded. It is not a promise that all legal liability can be waived.</p>
+    </section>
+    <section aria-labelledby="licence">
+      <h2 id="licence">Source code and licence</h2>
+      <p>The project’s original source code is under the <a href="/licence.txt">MIT licence</a>. The source distribution contains reusable application code. Repository visibility and the licence do not grant access to anyone’s saved account content.</p>
+      <p>Your personal saved content is not licensed to others under the source-code licence. Third-party components and artwork retain their own terms.</p>
+      <ul><li>ARASAAC pictograms: Sergio Palao; Government of Aragon. <a href="/assets/dictionary/ARASAAC-LICENSE.txt">CC BY-NC-SA 4.0</a>, including non-commercial and attribution requirements. <a href="/assets/dictionary/ARASAAC-CREDITS.txt">Picture credits</a>.</li><li>Historical Mulberry compatibility notice (no Mulberry artwork bundled): Steve Lee. <a href="/assets/dictionary/MULBERRY-LICENSE.txt">CC BY-SA 4.0</a>.</li></ul>
+    </section>
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact the project maintainer</h2>
+      <p><a href="mailto:mywordssupport@gmail.com">mywordssupport@gmail.com</a></p>
+      <p>This is the project’s public support address. Email passes through your email provider and Google’s mail service; end-to-end encryption is not guaranteed. Do not include passwords or unnecessary health details, or post private information in GitHub issues.</p>
+      <p>For the original volunteer beta, Gillian Kerr handles support and replies from this address. This address does not promise account support for forks. Independent operators must publish their own support, request-handling and retention policies. Do not send private account content to the source-code project.</p>
+    </section>
+  </main>
+  <script src="/js/privacy.js"></script>
+</body>
+</html>

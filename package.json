@@ -1,0 +1,51 @@
+{
+  "name": "my-words",
+  "version": "2.0.0",
+  "description": "My Words communication app with personal vocabulary, notes, pictures, offline working copies and booklet printing.",
+  "main": "server/next/beta-preview.js",
+  "scripts": {
+    "start": "node tests/next/harness/start.js --memory",
+    "dev": "node tests/next/harness/start.js --memory",
+    "test": "npm run test:next",
+    "test:watch": "jest tests/next/unit --watch",
+    "test:integration": "npm run test:next:db",
+    "test:frontend": "npm run test:next:frontend",
+    "test:frontend:headed": "npm run test:next:frontend -- --headed",
+    "test:all": "npm test && npm run test:frontend",
+    "next:demo": "node tests/next/harness/start.js --memory",
+    "next:db": "node tests/next/harness/start.js",
+    "test:next": "jest tests/next/unit --runInBand",
+    "test:next:db": "jest tests/next/integration --runInBand",
+    "test:next:frontend": "node tests/next/harness/run-frontend.js",
+    "test:next:frontend:db": "node tests/next/harness/run-postgres-frontend.js",
+    "start:server": "node server/next/beta-preview.js"
+  },
+  "keywords": [
+    "aphasia",
+    "ppa",
+    "communication",
+    "aac",
+    "accessibility",
+    "notebook",
+    "speech-language",
+    "slp"
+  ],
+  "author": "Gillian Kerr",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-pg-simple": "^9.0.0",
+    "express": "^5.2.1",
+    "express-session": "^1.17.3",
+    "helmet": "^7.1.0",
+    "openai": "^4.20.0",
+    "pg": "^8.11.0"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "jest": "^30.2.0"
+  }
+}

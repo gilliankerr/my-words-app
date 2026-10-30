@@ -1,0 +1,17 @@
+{
+  "name": "Alex River (fictional)",
+  "personalMessage": "This is a fictional test profile. I enjoy gardens and visiting the library. Please give me time to find my words.",
+  "note": "I would like a quiet table near the window, please.",
+  "contact": {
+    "name": "Sam Meadow (fictional)",
+    "phone": "202-555-0142",
+    "email": "sam@example.invalid",
+    "groups": ["Friends", "Book club"]
+  },
+  "shopping": "Lentils",
+  "group": {
+    "name": "At the café",
+    "words": [{ "text": "Tea" }, { "text": "Water" }, { "text": "A quiet table" }, { "text": "Thank you" }]
+  },
+  "future": { "synthetic": true, "retain": ["complete", "unknown fields"] }
+}

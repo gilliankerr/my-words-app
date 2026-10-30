@@ -1,0 +1,45 @@
+const { openPreparation } = require('../saved-shortcuts');
+const {test,expect}=require('@playwright/test');
+const manifest=require('../../../app-next/assets/dictionary/manifest.json');
+const personalCareCount=manifest.symbols.filter(symbol=>symbol.group==='Personal care').length;
+test('picture attribution is in Settings and absent from User Icons browsing',async({page,context})=>{
+  await login(page);
+  await expect(page.getByText('Picture credits',{exact:true})).toHaveCount(0);
+  await page.getByRole('button',{name:'Personal care',exact:true}).click();
+  await expect(page.getByText('Pictograms: Sergio Palao / ARASAAC. Owner: Government of Aragon. CC BY-NC-SA 4.0.',{exact:true})).toHaveCount(0);
+  await page.getByRole('link',{name:'Settings',exact:true}).click();
+  await page.locator('summary').filter({hasText:/^Picture credits$/}).click();
+  await expect(page.getByText('Pictograms: Sergio Palao / ARASAAC. Owner: Government of Aragon. CC BY-NC-SA 4.0.',{exact:true})).toBeVisible();
+  for(const [name,href] of [['ARASAAC source','https://arasaac.org/'],['CC BY-NC-SA 4.0 licence','https://creativecommons.org/licenses/by-nc-sa/4.0/'],['Bundled licence','/assets/dictionary/ARASAAC-LICENSE.txt'],['Picture credits','/assets/dictionary/ARASAAC-CREDITS.txt']])await expect(page.getByRole('link',{name,exact:true})).toHaveAttribute('href',href);
+  await page.evaluate(()=>navigator.serviceWorker.ready);await context.setOffline(true);await page.reload();
+  await page.locator('summary').filter({hasText:/^Picture credits$/}).click();
+  await expect(page.getByRole('link',{name:'Bundled licence',exact:true})).toBeVisible();
+});
+async function login(page,editor=false){await page.goto(editor?'/editor.html':'/#icons');await page.getByLabel('Account',{exact:true}).fill('owner');await page.getByLabel('Password',{exact:true}).fill('owner-fictional-only');await page.getByRole('button',{name:'Sign in',exact:true}).click();}
+test('complete categories and all pictures preserve normal Show and browser return',async({page})=>{
+  await login(page);await expect(page.locator('.dictionary-category')).toHaveCount(15);await expect(page.locator('[data-dictionary-results]')).toHaveCount(0);
+  await page.getByRole('button',{name:'Personal care',exact:true}).click();await expect(page.locator('[data-dictionary-results] [data-symbol]')).toHaveCount(personalCareCount);
+  const shower=page.getByRole('button',{name:'Show Shower',exact:true});await shower.click();await expect(page.locator('[data-show-page] img')).toHaveAttribute('src',/arasaac\/27728_500.png/);
+  await page.goBack();await expect(shower).toBeFocused();await page.goForward();await expect(page.locator('[data-show-page]')).toContainText('Shower');await page.keyboard.press('Escape');await expect(shower).toBeFocused();
+  await page.getByRole('button',{name:'Categories',exact:true}).click();await page.getByRole('button',{name:'All pictures',exact:true}).click();await expect(page.locator('[data-dictionary-results] [data-symbol]')).toHaveCount(manifest.symbols.length);await expect(page.getByRole('button',{name:'Show more pictures',exact:true})).toHaveCount(0);
+});
+test('restored category handlers retain their original browse snapshot',async({page})=>{
+  await login(page);await page.getByRole('button',{name:'Personal care',exact:true}).click();await page.getByRole('button',{name:'Categories',exact:true}).click();await page.goBack();await expect(page.getByRole('heading',{name:'Personal care',exact:true})).toBeVisible();await page.getByRole('button',{name:'Show Shower',exact:true}).click();await page.keyboard.press('Escape');await expect(page.getByRole('heading',{name:'Personal care',exact:true})).toBeVisible();
+});
+test('Settings wording, aliases and favourites survive offline reload and hiding is reversible',async({page,context})=>{
+  await login(page,true);await openPreparation(page);await page.getByRole('button',{name:'Change picture labels and favourites',exact:true}).click();await page.getByLabel('Find a picture to change').fill('shower');await page.getByRole('button',{name:'Find pictures',exact:true}).click();await page.getByRole('button',{name:'Change Shower',exact:true}).click();
+  await page.getByLabel('Word label',{exact:true}).fill('Wash now');await page.getByLabel('Show wording',{exact:true}).fill('I would like a shower.');await page.getByLabel('Other search words',{exact:true}).fill('lavage');await page.getByLabel('Favourite',{exact:true}).check();await page.getByRole('button',{name:'Save picture choices',exact:true}).click();await expect(page.locator('.dictionary-search [role=status]')).toContainText('saved');
+  await page.getByRole('link',{name:'Home',exact:true}).click();await page.getByRole('button',{name:'Icons Picture dictionary',exact:true}).click();await page.getByRole('button',{name:'Show Wash now',exact:true}).click();await expect(page.locator('[data-show-page]')).toContainText('I would like a shower.');await page.keyboard.press('Escape');
+  await page.evaluate(()=>navigator.serviceWorker.ready);await context.setOffline(true);await page.reload();await expect(page.locator('[data-dictionary-favourites]')).toContainText('Wash now');
+  await page.getByLabel('Search pictures',{exact:true}).fill('lavage');await page.getByRole('button',{name:'Search',exact:true}).click();await expect(page.locator('[data-dictionary-results]')).toContainText('Wash now');
+  // The memory server is shared across files: restore this test's synthetic preferences.
+  await context.setOffline(false);await page.goto('/editor.html');await openPreparation(page);await page.getByRole('button',{name:'Change picture labels and favourites',exact:true}).click();await page.getByLabel('Find a picture to change').fill('Wash now');await page.getByRole('button',{name:'Find pictures',exact:true}).click();await page.getByRole('button',{name:'Change Wash now',exact:true}).click();await page.getByRole('button',{name:'Reset wording',exact:true}).click();await page.getByLabel('Other search words',{exact:true}).fill('');await page.getByLabel('Favourite',{exact:true}).uncheck();await page.getByRole('button',{name:'Save picture choices',exact:true}).click();await expect(page.locator('.dictionary-search [role=status]')).toContainText('saved');
+  const restored=await page.evaluate(async()=>{const pkg=JSON.parse(await NextTrial.exportText());const r=pkg.workspace.records[NextDictionary.PREFERENCE_ID];return r.revisions.find(v=>v.number===r.current).payload.dictionary;});expect(restored.messageText?.['icons-personal-care-shower']).toBeNull();
+});
+test('draft reload/cancel, disabled save controls and Hide/Restore preserve full choices',async({page})=>{
+  await login(page,true);const openBrush=async()=>{await openPreparation(page);await page.getByRole('button',{name:'Change picture labels and favourites',exact:true}).click();await page.getByLabel('Find a picture to change').fill('Brush teeth');await page.getByRole('button',{name:'Find pictures',exact:true}).click();await page.getByRole('button',{name:'Change Brush teeth',exact:true}).click();};await openBrush();
+  await page.getByLabel('Word label',{exact:true}).fill('Temporary brush');await page.evaluate(()=>NextTrial.exportText());await page.reload();await openBrush();await expect(page.getByLabel('Word label',{exact:true})).toHaveValue('Temporary brush');await page.getByRole('button',{name:'Cancel changes',exact:true}).click();await page.getByLabel('Find a picture to change').fill('Brush teeth');await page.getByRole('button',{name:'Find pictures',exact:true}).click();await page.getByRole('button',{name:'Change Brush teeth',exact:true}).click();await expect(page.getByLabel('Word label',{exact:true})).toHaveValue('Brush teeth');
+  await page.getByLabel('Hide from browsing',{exact:true}).check();let release;const held=new Promise(resolve=>release=resolve);await page.route('**/api/workspaces/demo/operations',async route=>{await held;await route.continue();});await page.getByRole('button',{name:'Save picture choices',exact:true}).click();await expect(page.getByLabel('Word label',{exact:true})).toBeDisabled();await expect(page.getByRole('button',{name:'Reset wording',exact:true})).toBeDisabled();release();await expect(page.locator('.dictionary-search [role=status]')).toContainText('saved');await page.unroute('**/api/workspaces/demo/operations');
+  await page.getByRole('link',{name:'Home',exact:true}).click();await page.getByRole('button',{name:'Icons Picture dictionary',exact:true}).click();await page.getByRole('button',{name:'Personal care',exact:true}).click();await expect(page.locator('[data-dictionary-results] [data-symbol]')).toHaveCount(personalCareCount-1);await expect(page.getByRole('button',{name:'Show Brush teeth',exact:true})).toHaveCount(0);
+  await page.goto('/editor.html');await openBrush();await page.getByLabel('Hide from browsing',{exact:true}).uncheck();await page.getByRole('button',{name:'Save picture choices',exact:true}).click();await expect(page.locator('.dictionary-search [role=status]')).toContainText('saved');
+});

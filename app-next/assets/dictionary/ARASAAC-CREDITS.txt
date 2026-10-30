@@ -1,0 +1,15 @@
+Pictograms author: Sergio Palao.
+Origin: ARASAAC — https://arasaac.org/
+Owner: Government of Aragon (Spain).
+Licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Official pictogram terms: https://arasaac.org/terms-of-use
+
+This curated collection uses unmodified descriptive pictogram PNGs. App wording is
+native text separate from artwork. Source IDs, original keywords, checksums and
+retrieval dates are in manifest.json. Artwork retains its own licence; the app's
+source-code licence does not relicense these pictures.
+
+Use the pictures for noncommercial purposes with attribution and comply with the
+licence's share-alike conditions for adaptations. Review the exact licence and
+ARASAAC terms for any distribution outside the intended private use.

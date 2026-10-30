@@ -1,0 +1,31 @@
+.home-word-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin-bottom: .65rem; }
+.home-word-slot { min-width: 0; }
+.home-word-slot button { width: 100%; min-height: 52px; text-align: left; }
+.group-cue { display: block; font-size: 1.15rem; line-height: 1.5; }
+.group-cue-image { display: block; width: 3rem; height: 3rem; object-fit: contain; }
+.group-word-preview { padding-left: 1.5rem; line-height: 1.7; }
+.group-edit-word { padding: .6rem 0; border-bottom: 2px solid #a8b5c5; }
+.group-edit-word button { margin: .2rem; }
+.quick-selection p { margin: .3rem 0; overflow-wrap: anywhere; }
+.quick-selection { position: sticky; top: 53px; z-index: 10; background: #f4f2ea; padding: 8px 0; max-height: 45dvh; overflow: auto; max-width: 800px; }
+.quick-selection button { font-size: .8rem; margin: 4px 8px 0 0; }
+.words.quick-bank { max-width: 800px; }
+
+.quick-bank-heading-quiet { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+main:has(.quick-form) > h1 { font-size: 1.1rem; margin-block: 0 .35rem; }
+main:has(.quick-form) > [data-quick-error]:empty { display: none; }
+.quick-actions { margin-top: 12px; max-width: 800px; gap: 8px; }
+.quick-actions button, .quick-form input, .quick-form > button, .quick-form label { font-size: .8rem; }
+.quick-actions button { margin: 0; }
+[data-quick-fresh-heading], [data-quick-selection-heading], [data-quick-original-heading] { scroll-margin-top: 64px; }
+.quick-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 8px; align-items: center; max-width: 800px; margin-bottom: 12px; }
+.quick-form label { grid-column: 1 / -1; margin: 0; }
+.quick-form input { width: 100%; min-width: 0; box-sizing: border-box; }
+.quick-form > button:not(.primary) { grid-column: 1 / -1; justify-self: start; }
+.quick-selection h2 { margin-block: .6rem .3rem; }
+
+.words button[aria-pressed="true"] { border: 0; box-shadow: inset 0 -3px #2e6353; font-weight: 400; background: #dcead9; }
+@media (max-width: 360px) { .home-word-groups { grid-template-columns: minmax(0, 1fr); } .home-word-slot[aria-hidden="true"] { min-height: 1rem; } }
+
+.words.quick-bank > button { font-size: .8rem; line-height: 1.35; }
+.words button[aria-pressed="true"] { font-weight: 400; } .words button.highlighted[aria-pressed="true"] { font-weight: 750; }
